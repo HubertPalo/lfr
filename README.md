@@ -63,13 +63,11 @@ If you use any part of this repository in your research, please cite the associa
 Authors: Yi Sui, Tongzi Wu, Jesse C. Cresswell, Ga Wu, George Stein, Xiao Shi Huang, Xiaochen Zhang, Maksims Volkovs
 
 ```
-@misc{sui2023selfsupervised,
+@inproceedings{sui2024selfsupervised,
       title={Self-supervised Representation Learning from Random Data Projectors}, 
       author={Yi Sui and Tongzi Wu and Jesse C. Cresswell and Ga Wu and George Stein and Xiao Shi Huang and Xiaochen Zhang and Maksims Volkovs},
-      year={2023},
-      eprint={2310.07756},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      booktitle={International Conference on Learning Representations},
+      year={2024}
 }
 ```
 
