@@ -73,7 +73,3 @@ Authors: Yi Sui, Tongzi Wu, Jesse C. Cresswell, Ga Wu, George Stein, Xiao Shi Hu
 }
 ```
 
-## License
-
-This data and code is licensed under the MIT License, copyright by Layer 6 AI.
-
