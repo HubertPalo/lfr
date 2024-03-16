@@ -4,7 +4,7 @@
 <a href="https://www.dal.ca///"><img src="https://github.com/layer6ai-labs/lfr/blob/main/logos/dalhousie_university.png" width="180" height="90"></a>
 </p>
 
-# Self-supervised Representation Learning from Random Data Projectors
+# ICLR'24 Self-supervised Representation Learning from Random Data Projectors
 
 The codebase for [*Self-supervised Representation Learning from Random Data Projectors*](https://arxiv.org/abs/2310.07756).
 
