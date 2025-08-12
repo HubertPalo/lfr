@@ -1,0 +1,1240 @@
+2025-08-12 12:02:47 [INFO ] Namespace(dataset='har', arch='cnn', workers=1, epochs=200, warmup_epochs=0, start_epoch=0, train_with_steps=False, batch_size=128, lr=0.0003, warmup_lr=0, momentum=0.9, weight_decay=0.0003, eval_wd=0.0003, print_freq=10, resume='', seed=None, ckpt_path='ckpt', eval_epochs=100, eval_lr=0.0003, eval_bs=128, early_stop=10000, random_init_eval=False, method='lfr', stab_drop_rate=0.1, dim=2304, num_targets=6, pred_dim=256, proj_dim=512, proj_layers=3, fix_pred_lr=True, fix_eval_lr=True, fix_lr=True, pred_lr_scale=1, pred_epochs=5, rerun_training=False, rerun_eval=False, run_train=1, run_eval=1, save_freq=5, eval_freq=200, train_predictor_individually=True, target_layers=[2, 2, 2, 2, 2, 2], random_dropout=False, init_beta=False, regularize_weight=False, no_bias=False, loss='barlow-batch', temp=0.07, pred_layers=1, num_of_classes=6, lambd=0.01, eval_dataset='har', num_of_runs=1, run_id=0, optimizer_type='adam', target_sample_ratio=10, finetune_epochs=0, finetune_lr=0.005, train_sample_frac=1.0, metrics=['acc'])
+2025-08-12 12:02:47 [INFO ] => loading data 'har'
+2025-08-12 12:02:58 [INFO ] => creating model 'cnn'
+2025-08-12 12:03:06 [INFO ] => begin training
+2025-08-12 12:03:08 [INFO ] Training | Epoch: 0 | loss: 111.14897719673489
+2025-08-12 12:03:09 [INFO ] Training predictor | Epoch: 0 | loss: 67.1052827420442
+2025-08-12 12:03:10 [INFO ] Training predictor | Epoch: 1 | loss: 55.51565244923467
+2025-08-12 12:03:11 [INFO ] Training predictor | Epoch: 2 | loss: 49.79776258053987
+2025-08-12 12:03:12 [INFO ] Training predictor | Epoch: 3 | loss: 46.52325605309528
+2025-08-12 12:03:13 [INFO ] Training predictor | Epoch: 4 | loss: 45.05921670664912
+2025-08-12 12:03:14 [INFO ] Training | Epoch: 1 | loss: 46.59859715337338
+2025-08-12 12:03:15 [INFO ] Training predictor | Epoch: 0 | loss: 44.095216336457625
+2025-08-12 12:03:16 [INFO ] Training predictor | Epoch: 1 | loss: 43.43079168900199
+2025-08-12 12:03:17 [INFO ] Training predictor | Epoch: 2 | loss: 43.19782323422639
+2025-08-12 12:03:18 [INFO ] Training predictor | Epoch: 3 | loss: 43.007929843405016
+2025-08-12 12:03:20 [INFO ] Training predictor | Epoch: 4 | loss: 42.86545239324155
+2025-08-12 12:03:21 [INFO ] Training | Epoch: 2 | loss: 43.774322012196414
+2025-08-12 12:03:22 [INFO ] Training predictor | Epoch: 0 | loss: 42.62850777999215
+2025-08-12 12:03:23 [INFO ] Training predictor | Epoch: 1 | loss: 42.4337853970735
+2025-08-12 12:03:25 [INFO ] Training predictor | Epoch: 2 | loss: 42.45850670855978
+2025-08-12 12:03:25 [INFO ] Training predictor | Epoch: 3 | loss: 42.31721712195355
+2025-08-12 12:03:26 [INFO ] Training predictor | Epoch: 4 | loss: 42.20558813343877
+2025-08-12 12:03:27 [INFO ] Training | Epoch: 3 | loss: 43.132114244543985
+2025-08-12 12:03:28 [INFO ] Training predictor | Epoch: 0 | loss: 42.115688655687414
+2025-08-12 12:03:30 [INFO ] Training predictor | Epoch: 1 | loss: 42.07741530045219
+2025-08-12 12:03:31 [INFO ] Training predictor | Epoch: 2 | loss: 41.942409847093664
+2025-08-12 12:03:32 [INFO ] Training predictor | Epoch: 3 | loss: 41.94061436860458
+2025-08-12 12:03:33 [INFO ] Training predictor | Epoch: 4 | loss: 42.00568613798722
+2025-08-12 12:03:34 [INFO ] Training | Epoch: 4 | loss: 42.60418336287789
+2025-08-12 12:03:35 [INFO ] Training predictor | Epoch: 0 | loss: 41.85646140057108
+2025-08-12 12:03:37 [INFO ] Training predictor | Epoch: 1 | loss: 41.76365902112878
+2025-08-12 12:03:38 [INFO ] Training predictor | Epoch: 2 | loss: 41.794126925261125
+2025-08-12 12:03:39 [INFO ] Training predictor | Epoch: 3 | loss: 41.740413002345875
+2025-08-12 12:03:40 [INFO ] Training predictor | Epoch: 4 | loss: 41.71627882252569
+2025-08-12 12:05:26 [INFO ] Namespace(dataset='har', arch='cnn', workers=1, epochs=200, warmup_epochs=0, start_epoch=0, train_with_steps=False, batch_size=128, lr=0.0003, warmup_lr=0, momentum=0.9, weight_decay=0.0003, eval_wd=0.0003, print_freq=10, resume='', seed=None, ckpt_path='ckpt', eval_epochs=100, eval_lr=0.0003, eval_bs=128, early_stop=10000, random_init_eval=False, method='lfr', stab_drop_rate=0.1, dim=2304, num_targets=6, pred_dim=256, proj_dim=512, proj_layers=3, fix_pred_lr=True, fix_eval_lr=True, fix_lr=True, pred_lr_scale=1, pred_epochs=5, rerun_training=False, rerun_eval=False, run_train=1, run_eval=1, save_freq=5, eval_freq=200, train_predictor_individually=True, target_layers=[2, 2, 2, 2, 2, 2], random_dropout=False, init_beta=False, regularize_weight=False, no_bias=False, loss='barlow-batch', temp=0.07, pred_layers=1, num_of_classes=6, lambd=0.01, eval_dataset='har', num_of_runs=1, run_id=0, optimizer_type='adam', target_sample_ratio=10, finetune_epochs=0, finetune_lr=0.005, train_sample_frac=1.0, metrics=['acc'])
+2025-08-12 12:05:26 [INFO ] => loading data 'har'
+2025-08-12 12:05:27 [INFO ] => creating model 'cnn'
+2025-08-12 12:05:37 [INFO ] => begin training
+2025-08-12 12:05:40 [INFO ] Training | Epoch: 0 | loss: 110.57859238334323
+2025-08-12 12:05:41 [INFO ] Training predictor | Epoch: 0 | loss: 67.32509480351987
+2025-08-12 12:05:42 [INFO ] Training predictor | Epoch: 1 | loss: 55.192991837211274
+2025-08-12 12:05:43 [INFO ] Training predictor | Epoch: 2 | loss: 48.608630719392195
+2025-08-12 12:05:44 [INFO ] Training predictor | Epoch: 3 | loss: 45.32393563312033
+2025-08-12 12:05:45 [INFO ] Training predictor | Epoch: 4 | loss: 43.970223219498344
+2025-08-12 12:05:46 [INFO ] Training | Epoch: 1 | loss: 45.12121922036876
+2025-08-12 12:05:48 [INFO ] Training predictor | Epoch: 0 | loss: 43.175568290378735
+2025-08-12 12:05:49 [INFO ] Training predictor | Epoch: 1 | loss: 42.54038387796153
+2025-08-12 12:05:50 [INFO ] Training predictor | Epoch: 2 | loss: 42.2283177583114
+2025-08-12 12:05:51 [INFO ] Training predictor | Epoch: 3 | loss: 42.068829577902086
+2025-08-12 12:05:52 [INFO ] Training predictor | Epoch: 4 | loss: 41.85142243426779
+2025-08-12 12:05:53 [INFO ] Training | Epoch: 2 | loss: 42.70789378622304
+2025-08-12 12:05:54 [INFO ] Training predictor | Epoch: 0 | loss: 41.66082647572393
+2025-08-12 12:05:56 [INFO ] Training predictor | Epoch: 1 | loss: 41.534944451373555
+2025-08-12 12:05:57 [INFO ] Training predictor | Epoch: 2 | loss: 41.487765934156336
+2025-08-12 12:05:58 [INFO ] Training predictor | Epoch: 3 | loss: 41.3691170733908
+2025-08-12 12:05:59 [INFO ] Training predictor | Epoch: 4 | loss: 41.33530226997707
+2025-08-12 12:06:00 [INFO ] Training | Epoch: 3 | loss: 42.09382952814517
+2025-08-12 12:06:01 [INFO ] Training predictor | Epoch: 0 | loss: 41.23897088092306
+2025-08-12 12:06:02 [INFO ] Training predictor | Epoch: 1 | loss: 41.1400494782821
+2025-08-12 12:06:04 [INFO ] Training predictor | Epoch: 2 | loss: 41.12023461383322
+2025-08-12 12:06:05 [INFO ] Training predictor | Epoch: 3 | loss: 41.07857463670813
+2025-08-12 12:06:06 [INFO ] Training predictor | Epoch: 4 | loss: 41.01002427806025
+2025-08-12 12:06:07 [INFO ] Training | Epoch: 4 | loss: 41.752999844758406
+2025-08-12 12:06:08 [INFO ] Training predictor | Epoch: 0 | loss: 40.94967319654382
+2025-08-12 12:06:09 [INFO ] Training predictor | Epoch: 1 | loss: 40.94061834915824
+2025-08-12 12:06:10 [INFO ] Training predictor | Epoch: 2 | loss: 40.87808890964674
+2025-08-12 12:06:12 [INFO ] Training predictor | Epoch: 3 | loss: 40.80675274392833
+2025-08-12 12:06:13 [INFO ] Training predictor | Epoch: 4 | loss: 40.8573814060377
+2025-08-12 12:06:32 [DEBUG] Loaded backend gtk3agg version 3.24.33.
+2025-08-12 12:06:35 [INFO ] Training | Epoch: 5 | loss: 41.53493350485097
+2025-08-12 12:06:36 [INFO ] Training predictor | Epoch: 0 | loss: 40.8387738932734
+2025-08-12 12:06:38 [INFO ] Training predictor | Epoch: 1 | loss: 40.791776491248086
+2025-08-12 12:06:39 [INFO ] Training predictor | Epoch: 2 | loss: 40.79341581593389
+2025-08-12 12:06:40 [INFO ] Training predictor | Epoch: 3 | loss: 40.717630718065344
+2025-08-12 12:06:41 [INFO ] Training predictor | Epoch: 4 | loss: 40.70099399400794
+2025-08-12 12:06:42 [INFO ] Training | Epoch: 6 | loss: 41.290890403415844
+2025-08-12 12:06:44 [INFO ] Training predictor | Epoch: 0 | loss: 40.62014314402705
+2025-08-12 12:06:51 [INFO ] Training predictor | Epoch: 1 | loss: 40.64502757528554
+2025-08-12 12:06:54 [INFO ] Training predictor | Epoch: 2 | loss: 40.69248663860819
+2025-08-12 12:06:55 [INFO ] Training predictor | Epoch: 3 | loss: 40.577503287273906
+2025-08-12 12:06:56 [INFO ] Training predictor | Epoch: 4 | loss: 40.59827124554178
+2025-08-12 12:06:57 [INFO ] Training | Epoch: 7 | loss: 41.15700871011485
+2025-08-12 12:06:58 [INFO ] Training predictor | Epoch: 0 | loss: 40.533246081808336
+2025-08-12 12:06:59 [INFO ] Training predictor | Epoch: 1 | loss: 40.53174342279849
+2025-08-12 12:07:00 [INFO ] Training predictor | Epoch: 2 | loss: 40.60852125416631
+2025-08-12 12:07:02 [INFO ] Training predictor | Epoch: 3 | loss: 40.561368030050524
+2025-08-12 12:07:03 [INFO ] Training predictor | Epoch: 4 | loss: 40.46143705948539
+2025-08-12 12:07:04 [INFO ] Training | Epoch: 8 | loss: 41.09271364626677
+2025-08-12 12:07:08 [INFO ] Training predictor | Epoch: 0 | loss: 40.46585398134978
+2025-08-12 12:07:09 [INFO ] Training predictor | Epoch: 1 | loss: 40.41384348662003
+2025-08-12 12:07:10 [INFO ] Training predictor | Epoch: 2 | loss: 40.50070099208666
+2025-08-12 12:07:11 [INFO ] Training predictor | Epoch: 3 | loss: 40.52672286655592
+2025-08-12 12:07:12 [INFO ] Training predictor | Epoch: 4 | loss: 40.40142125668733
+2025-08-12 12:07:13 [INFO ] Training | Epoch: 9 | loss: 40.90989253831946
+2025-08-12 12:07:14 [INFO ] Training predictor | Epoch: 0 | loss: 40.44209994440494
+2025-08-12 12:07:16 [INFO ] Training predictor | Epoch: 1 | loss: 40.377441572106406
+2025-08-12 12:07:17 [INFO ] Training predictor | Epoch: 2 | loss: 40.411409295123555
+2025-08-12 12:07:18 [INFO ] Training predictor | Epoch: 3 | loss: 40.40815618763799
+2025-08-12 12:07:19 [INFO ] Training predictor | Epoch: 4 | loss: 40.36674856102985
+2025-08-12 12:07:35 [INFO ] Training | Epoch: 10 | loss: 40.854924160501234
+2025-08-12 12:07:36 [INFO ] Training predictor | Epoch: 0 | loss: 40.37381570235543
+2025-08-12 12:07:37 [INFO ] Training predictor | Epoch: 1 | loss: 40.39027164293372
+2025-08-12 12:07:39 [INFO ] Training predictor | Epoch: 2 | loss: 40.293360668679945
+2025-08-12 12:07:40 [INFO ] Training predictor | Epoch: 3 | loss: 40.3537540435791
+2025-08-12 12:07:41 [INFO ] Training predictor | Epoch: 4 | loss: 40.31179942255435
+2025-08-12 12:07:42 [INFO ] Training | Epoch: 11 | loss: 40.80052649456522
+2025-08-12 12:07:43 [INFO ] Training predictor | Epoch: 0 | loss: 40.28819507101308
+2025-08-12 12:07:44 [INFO ] Training predictor | Epoch: 1 | loss: 40.23881481004798
+2025-08-12 12:07:45 [INFO ] Training predictor | Epoch: 2 | loss: 40.34351340584133
+2025-08-12 12:07:46 [INFO ] Training predictor | Epoch: 3 | loss: 40.30792485112729
+2025-08-12 12:07:47 [INFO ] Training predictor | Epoch: 4 | loss: 40.37419684036918
+2025-08-12 12:07:48 [INFO ] Training | Epoch: 12 | loss: 40.708561855813734
+2025-08-12 12:07:50 [INFO ] Training predictor | Epoch: 0 | loss: 40.25230548692786
+2025-08-12 12:07:51 [INFO ] Training predictor | Epoch: 1 | loss: 40.290582491003946
+2025-08-12 12:07:52 [INFO ] Training predictor | Epoch: 2 | loss: 40.27776618625807
+2025-08-12 12:07:53 [INFO ] Training predictor | Epoch: 3 | loss: 40.17983486341394
+2025-08-12 12:07:54 [INFO ] Training predictor | Epoch: 4 | loss: 40.251349822334625
+2025-08-12 12:07:55 [INFO ] Training | Epoch: 13 | loss: 40.676647849704906
+2025-08-12 12:07:56 [INFO ] Training predictor | Epoch: 0 | loss: 40.23953023164169
+2025-08-12 12:07:58 [INFO ] Training predictor | Epoch: 1 | loss: 40.2793256510859
+2025-08-12 12:07:59 [INFO ] Training predictor | Epoch: 2 | loss: 40.21469107918117
+2025-08-12 12:08:00 [INFO ] Training predictor | Epoch: 3 | loss: 40.1865354620892
+2025-08-12 12:08:01 [INFO ] Training predictor | Epoch: 4 | loss: 40.17597712641177
+2025-08-12 12:08:03 [INFO ] Training | Epoch: 14 | loss: 40.58872280950131
+2025-08-12 12:08:04 [INFO ] Training predictor | Epoch: 0 | loss: 40.2041075333305
+2025-08-12 12:08:05 [INFO ] Training predictor | Epoch: 1 | loss: 40.23993964817213
+2025-08-12 12:08:06 [INFO ] Training predictor | Epoch: 2 | loss: 40.15194577756135
+2025-08-12 12:08:07 [INFO ] Training predictor | Epoch: 3 | loss: 40.13948929828146
+2025-08-12 12:08:08 [INFO ] Training predictor | Epoch: 4 | loss: 40.19922662817913
+2025-08-12 12:08:24 [INFO ] Training | Epoch: 15 | loss: 40.550498547761336
+2025-08-12 12:08:25 [INFO ] Training predictor | Epoch: 0 | loss: 40.21682332909626
+2025-08-12 12:08:27 [INFO ] Training predictor | Epoch: 1 | loss: 40.1497857466988
+2025-08-12 12:08:28 [INFO ] Training predictor | Epoch: 2 | loss: 40.29995885102645
+2025-08-12 12:08:29 [INFO ] Training predictor | Epoch: 3 | loss: 40.07265389483908
+2025-08-12 12:08:30 [INFO ] Training predictor | Epoch: 4 | loss: 40.12420007456904
+2025-08-12 12:08:31 [INFO ] Training | Epoch: 16 | loss: 40.50665167103643
+2025-08-12 12:08:33 [INFO ] Training predictor | Epoch: 0 | loss: 40.10945875748344
+2025-08-12 12:08:34 [INFO ] Training predictor | Epoch: 1 | loss: 40.0922096915867
+2025-08-12 12:08:35 [INFO ] Training predictor | Epoch: 2 | loss: 40.16889920442001
+2025-08-12 12:08:37 [INFO ] Training predictor | Epoch: 3 | loss: 40.1284932675569
+2025-08-12 12:08:38 [INFO ] Training predictor | Epoch: 4 | loss: 40.13082296951957
+2025-08-12 12:08:39 [INFO ] Training | Epoch: 17 | loss: 40.5393417192542
+2025-08-12 12:08:40 [INFO ] Training predictor | Epoch: 0 | loss: 40.11665153503418
+2025-08-12 12:08:41 [INFO ] Training predictor | Epoch: 1 | loss: 40.120240252950914
+2025-08-12 12:08:43 [INFO ] Training predictor | Epoch: 2 | loss: 40.01242886418881
+2025-08-12 12:08:44 [INFO ] Training predictor | Epoch: 3 | loss: 40.13488446111264
+2025-08-12 12:08:45 [INFO ] Training predictor | Epoch: 4 | loss: 40.03372922150985
+2025-08-12 12:08:46 [INFO ] Training | Epoch: 18 | loss: 40.478356568709664
+2025-08-12 12:08:47 [INFO ] Training predictor | Epoch: 0 | loss: 40.08431832686715
+2025-08-12 12:08:48 [INFO ] Training predictor | Epoch: 1 | loss: 40.008683494899586
+2025-08-12 12:08:50 [INFO ] Training predictor | Epoch: 2 | loss: 40.11996534596319
+2025-08-12 12:08:51 [INFO ] Training predictor | Epoch: 3 | loss: 40.082458827806555
+2025-08-12 12:08:52 [INFO ] Training predictor | Epoch: 4 | loss: 40.13227587160857
+2025-08-12 12:08:53 [INFO ] Training | Epoch: 19 | loss: 40.469682195912235
+2025-08-12 12:08:54 [INFO ] Training predictor | Epoch: 0 | loss: 40.0123578776484
+2025-08-12 12:08:55 [INFO ] Training predictor | Epoch: 1 | loss: 40.08765021614406
+2025-08-12 12:08:56 [INFO ] Training predictor | Epoch: 2 | loss: 40.07945201707923
+2025-08-12 12:08:58 [INFO ] Training predictor | Epoch: 3 | loss: 40.06197373763375
+2025-08-12 12:08:59 [INFO ] Training predictor | Epoch: 4 | loss: 40.05028301736583
+2025-08-12 12:09:11 [INFO ] Training | Epoch: 20 | loss: 40.42606146439262
+2025-08-12 12:09:12 [INFO ] Training predictor | Epoch: 0 | loss: 40.076188377712086
+2025-08-12 12:09:13 [INFO ] Training predictor | Epoch: 1 | loss: 40.07533413430919
+2025-08-12 12:09:15 [INFO ] Training predictor | Epoch: 2 | loss: 40.043543940005094
+2025-08-12 12:09:16 [INFO ] Training predictor | Epoch: 3 | loss: 40.03082714910092
+2025-08-12 12:09:17 [INFO ] Training predictor | Epoch: 4 | loss: 40.07972161666207
+2025-08-12 12:09:18 [INFO ] Training | Epoch: 21 | loss: 40.36760695084281
+2025-08-12 12:09:19 [INFO ] Training predictor | Epoch: 0 | loss: 40.02602253789487
+2025-08-12 12:09:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.990424529365875
+2025-08-12 12:09:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.98116708838421
+2025-08-12 12:09:22 [INFO ] Training predictor | Epoch: 3 | loss: 40.102639820264734
+2025-08-12 12:09:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.994379375291906
+2025-08-12 12:09:25 [INFO ] Training | Epoch: 22 | loss: 40.36140715557596
+2025-08-12 12:09:26 [INFO ] Training predictor | Epoch: 0 | loss: 39.994420093038805
+2025-08-12 12:09:27 [INFO ] Training predictor | Epoch: 1 | loss: 39.99552718452785
+2025-08-12 12:09:28 [INFO ] Training predictor | Epoch: 2 | loss: 40.004382174947985
+2025-08-12 12:09:29 [INFO ] Training predictor | Epoch: 3 | loss: 40.09834073937458
+2025-08-12 12:09:30 [INFO ] Training predictor | Epoch: 4 | loss: 39.916666860165805
+2025-08-12 12:09:31 [INFO ] Training | Epoch: 23 | loss: 40.33283109250276
+2025-08-12 12:09:32 [INFO ] Training predictor | Epoch: 0 | loss: 39.877810270889945
+2025-08-12 12:09:33 [INFO ] Training predictor | Epoch: 1 | loss: 39.997836734937586
+2025-08-12 12:09:34 [INFO ] Training predictor | Epoch: 2 | loss: 40.0154855147652
+2025-08-12 12:09:36 [INFO ] Training predictor | Epoch: 3 | loss: 40.06224889340608
+2025-08-12 12:09:37 [INFO ] Training predictor | Epoch: 4 | loss: 39.9312393354333
+2025-08-12 12:09:52 [INFO ] Training | Epoch: 24 | loss: 40.2996012646219
+2025-08-12 12:09:53 [INFO ] Training predictor | Epoch: 0 | loss: 39.965129271797515
+2025-08-12 12:09:54 [INFO ] Training predictor | Epoch: 1 | loss: 39.956044901972234
+2025-08-12 12:09:55 [INFO ] Training predictor | Epoch: 2 | loss: 39.97080396569294
+2025-08-12 12:09:55 [INFO ] Training predictor | Epoch: 3 | loss: 40.00464033043903
+2025-08-12 12:09:56 [INFO ] Training predictor | Epoch: 4 | loss: 39.97885994289232
+2025-08-12 12:10:19 [INFO ] Training | Epoch: 25 | loss: 40.294200648432195
+2025-08-12 12:10:20 [INFO ] Training predictor | Epoch: 0 | loss: 39.906253317128055
+2025-08-12 12:10:21 [INFO ] Training predictor | Epoch: 1 | loss: 39.96669437574304
+2025-08-12 12:10:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.95812233634617
+2025-08-12 12:10:23 [INFO ] Training predictor | Epoch: 3 | loss: 39.982516910718836
+2025-08-12 12:10:24 [INFO ] Training predictor | Epoch: 4 | loss: 39.94545555114746
+2025-08-12 12:10:26 [INFO ] Training | Epoch: 26 | loss: 40.28475570678711
+2025-08-12 12:10:27 [INFO ] Training predictor | Epoch: 0 | loss: 39.90884706248408
+2025-08-12 12:10:28 [INFO ] Training predictor | Epoch: 1 | loss: 39.89560309700344
+2025-08-12 12:10:29 [INFO ] Training predictor | Epoch: 2 | loss: 39.91182509712551
+2025-08-12 12:10:30 [INFO ] Training predictor | Epoch: 3 | loss: 39.918143479720406
+2025-08-12 12:10:31 [INFO ] Training predictor | Epoch: 4 | loss: 39.904281367426336
+2025-08-12 12:10:32 [INFO ] Training | Epoch: 27 | loss: 40.276502443396524
+2025-08-12 12:10:33 [INFO ] Training predictor | Epoch: 0 | loss: 39.87253811048425
+2025-08-12 12:10:34 [INFO ] Training predictor | Epoch: 1 | loss: 39.9966459688933
+2025-08-12 12:10:35 [INFO ] Training predictor | Epoch: 2 | loss: 39.91282205996306
+2025-08-12 12:10:36 [INFO ] Training predictor | Epoch: 3 | loss: 39.989888564400054
+2025-08-12 12:10:38 [INFO ] Training predictor | Epoch: 4 | loss: 39.85820861484694
+2025-08-12 12:10:39 [INFO ] Training | Epoch: 28 | loss: 40.264547182166055
+2025-08-12 12:10:40 [INFO ] Training predictor | Epoch: 0 | loss: 39.93978035968283
+2025-08-12 12:10:41 [INFO ] Training predictor | Epoch: 1 | loss: 39.87291817043138
+2025-08-12 12:10:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.86910977570907
+2025-08-12 12:10:43 [INFO ] Training predictor | Epoch: 3 | loss: 39.897000188412875
+2025-08-12 12:10:44 [INFO ] Training predictor | Epoch: 4 | loss: 40.02321135479471
+2025-08-12 12:10:46 [INFO ] Training | Epoch: 29 | loss: 40.22838028617527
+2025-08-12 12:10:47 [INFO ] Training predictor | Epoch: 0 | loss: 39.943166484003484
+2025-08-12 12:10:48 [INFO ] Training predictor | Epoch: 1 | loss: 39.88048072483229
+2025-08-12 12:10:49 [INFO ] Training predictor | Epoch: 2 | loss: 39.879369321076766
+2025-08-12 12:10:50 [INFO ] Training predictor | Epoch: 3 | loss: 39.849535983541735
+2025-08-12 12:10:51 [INFO ] Training predictor | Epoch: 4 | loss: 39.893589849057406
+2025-08-12 12:10:57 [INFO ] Training | Epoch: 30 | loss: 40.19644521630329
+2025-08-12 12:10:59 [INFO ] Training predictor | Epoch: 0 | loss: 39.85338111545729
+2025-08-12 12:11:00 [INFO ] Training predictor | Epoch: 1 | loss: 39.89902670487113
+2025-08-12 12:11:01 [INFO ] Training predictor | Epoch: 2 | loss: 39.91860464344854
+2025-08-12 12:11:02 [INFO ] Training predictor | Epoch: 3 | loss: 39.83924426203189
+2025-08-12 12:11:03 [INFO ] Training predictor | Epoch: 4 | loss: 39.87120072737984
+2025-08-12 12:11:04 [INFO ] Training | Epoch: 31 | loss: 40.215503775555156
+2025-08-12 12:11:05 [INFO ] Training predictor | Epoch: 0 | loss: 39.89396816751231
+2025-08-12 12:11:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.89877559827722
+2025-08-12 12:11:08 [INFO ] Training predictor | Epoch: 2 | loss: 39.88353165336277
+2025-08-12 12:11:09 [INFO ] Training predictor | Epoch: 3 | loss: 39.837542741195016
+2025-08-12 12:11:10 [INFO ] Training predictor | Epoch: 4 | loss: 39.89070195737092
+2025-08-12 12:11:11 [INFO ] Training | Epoch: 32 | loss: 40.20263854317043
+2025-08-12 12:11:12 [INFO ] Training predictor | Epoch: 0 | loss: 39.867868423461914
+2025-08-12 12:11:13 [INFO ] Training predictor | Epoch: 1 | loss: 39.93070759980575
+2025-08-12 12:11:14 [INFO ] Training predictor | Epoch: 2 | loss: 39.86346228226371
+2025-08-12 12:11:15 [INFO ] Training predictor | Epoch: 3 | loss: 39.843274240908414
+2025-08-12 12:11:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.86528015136719
+2025-08-12 12:11:18 [INFO ] Training | Epoch: 33 | loss: 40.217104206914485
+2025-08-12 12:11:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.782238421232805
+2025-08-12 12:11:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.84250997460407
+2025-08-12 12:11:23 [INFO ] Training predictor | Epoch: 2 | loss: 39.88484871905783
+2025-08-12 12:11:24 [INFO ] Training predictor | Epoch: 3 | loss: 39.86043631512186
+2025-08-12 12:11:25 [INFO ] Training predictor | Epoch: 4 | loss: 39.812450326007344
+2025-08-12 12:11:26 [INFO ] Training | Epoch: 34 | loss: 40.17738093500552
+2025-08-12 12:11:27 [INFO ] Training predictor | Epoch: 0 | loss: 39.78843572865362
+2025-08-12 12:11:28 [INFO ] Training predictor | Epoch: 1 | loss: 39.908977093903914
+2025-08-12 12:11:29 [INFO ] Training predictor | Epoch: 2 | loss: 39.847864565641984
+2025-08-12 12:11:31 [INFO ] Training predictor | Epoch: 3 | loss: 39.93421173095703
+2025-08-12 12:11:32 [INFO ] Training predictor | Epoch: 4 | loss: 39.87808036804199
+2025-08-12 12:11:48 [INFO ] Training | Epoch: 35 | loss: 40.10157070989194
+2025-08-12 12:11:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.775943507318914
+2025-08-12 12:11:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.790269271187164
+2025-08-12 12:11:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.86962467691173
+2025-08-12 12:11:52 [INFO ] Training predictor | Epoch: 3 | loss: 39.838548826134726
+2025-08-12 12:11:54 [INFO ] Training predictor | Epoch: 4 | loss: 39.89265831657078
+2025-08-12 12:11:55 [INFO ] Training | Epoch: 36 | loss: 40.1522509533426
+2025-08-12 12:11:56 [INFO ] Training predictor | Epoch: 0 | loss: 39.851399794868804
+2025-08-12 12:11:57 [INFO ] Training predictor | Epoch: 1 | loss: 39.87546390035878
+2025-08-12 12:11:58 [INFO ] Training predictor | Epoch: 2 | loss: 39.79965425574261
+2025-08-12 12:11:59 [INFO ] Training predictor | Epoch: 3 | loss: 39.78305941042693
+2025-08-12 12:12:00 [INFO ] Training predictor | Epoch: 4 | loss: 39.822937343431555
+2025-08-12 12:12:01 [INFO ] Training | Epoch: 37 | loss: 40.179171686587125
+2025-08-12 12:12:03 [INFO ] Training predictor | Epoch: 0 | loss: 39.81037869660751
+2025-08-12 12:12:04 [INFO ] Training predictor | Epoch: 1 | loss: 39.847979255344555
+2025-08-12 12:12:05 [INFO ] Training predictor | Epoch: 2 | loss: 39.9349072497824
+2025-08-12 12:12:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.75011966539466
+2025-08-12 12:12:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.89394304026728
+2025-08-12 12:12:08 [INFO ] Training | Epoch: 38 | loss: 40.126593050749406
+2025-08-12 12:12:10 [INFO ] Training predictor | Epoch: 0 | loss: 39.86449133831522
+2025-08-12 12:12:11 [INFO ] Training predictor | Epoch: 1 | loss: 39.797518688699476
+2025-08-12 12:12:12 [INFO ] Training predictor | Epoch: 2 | loss: 39.85462271648905
+2025-08-12 12:12:13 [INFO ] Training predictor | Epoch: 3 | loss: 39.75241984491763
+2025-08-12 12:12:14 [INFO ] Training predictor | Epoch: 4 | loss: 39.84823202050251
+2025-08-12 12:12:15 [INFO ] Training | Epoch: 39 | loss: 40.16390443884808
+2025-08-12 12:12:16 [INFO ] Training predictor | Epoch: 0 | loss: 39.852094650268555
+2025-08-12 12:12:17 [INFO ] Training predictor | Epoch: 1 | loss: 39.84909480551015
+2025-08-12 12:12:19 [INFO ] Training predictor | Epoch: 2 | loss: 39.79222131812054
+2025-08-12 12:12:20 [INFO ] Training predictor | Epoch: 3 | loss: 39.789130335268766
+2025-08-12 12:12:21 [INFO ] Training predictor | Epoch: 4 | loss: 39.75676229725713
+2025-08-12 12:12:34 [INFO ] Training | Epoch: 40 | loss: 40.15167999267578
+2025-08-12 12:12:35 [INFO ] Training predictor | Epoch: 0 | loss: 39.791061816008195
+2025-08-12 12:12:36 [INFO ] Training predictor | Epoch: 1 | loss: 39.80652726214865
+2025-08-12 12:12:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.798573950062625
+2025-08-12 12:12:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.8150633936343
+2025-08-12 12:12:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.84985592054284
+2025-08-12 12:12:40 [INFO ] Training | Epoch: 41 | loss: 40.10662053978962
+2025-08-12 12:12:42 [INFO ] Training predictor | Epoch: 0 | loss: 39.79022034354832
+2025-08-12 12:12:43 [INFO ] Training predictor | Epoch: 1 | loss: 39.76050866168478
+2025-08-12 12:12:44 [INFO ] Training predictor | Epoch: 2 | loss: 39.80023019210152
+2025-08-12 12:12:45 [INFO ] Training predictor | Epoch: 3 | loss: 39.91736096921174
+2025-08-12 12:12:46 [INFO ] Training predictor | Epoch: 4 | loss: 39.7798609526261
+2025-08-12 12:12:48 [INFO ] Training | Epoch: 42 | loss: 40.12769276162852
+2025-08-12 12:12:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.71815963413405
+2025-08-12 12:12:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.921286873195484
+2025-08-12 12:12:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.80475450598675
+2025-08-12 12:12:52 [INFO ] Training predictor | Epoch: 3 | loss: 39.87431833018427
+2025-08-12 12:12:53 [INFO ] Training predictor | Epoch: 4 | loss: 39.75290439439856
+2025-08-12 12:12:54 [INFO ] Training | Epoch: 43 | loss: 40.08904108793839
+2025-08-12 12:12:56 [INFO ] Training predictor | Epoch: 0 | loss: 39.7083448327106
+2025-08-12 12:12:57 [INFO ] Training predictor | Epoch: 1 | loss: 39.7798490938933
+2025-08-12 12:12:58 [INFO ] Training predictor | Epoch: 2 | loss: 39.765530461850375
+2025-08-12 12:12:59 [INFO ] Training predictor | Epoch: 3 | loss: 39.78489917257558
+2025-08-12 12:13:00 [INFO ] Training predictor | Epoch: 4 | loss: 39.78357049693232
+2025-08-12 12:13:01 [INFO ] Training | Epoch: 44 | loss: 40.07316025443699
+2025-08-12 12:13:02 [INFO ] Training predictor | Epoch: 0 | loss: 39.784554522970446
+2025-08-12 12:13:03 [INFO ] Training predictor | Epoch: 1 | loss: 39.80475094007409
+2025-08-12 12:13:05 [INFO ] Training predictor | Epoch: 2 | loss: 39.84325649427331
+2025-08-12 12:13:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.73175621032715
+2025-08-12 12:13:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.8034665480904
+2025-08-12 12:13:23 [INFO ] Training | Epoch: 45 | loss: 40.06976210552713
+2025-08-12 12:13:24 [INFO ] Training predictor | Epoch: 0 | loss: 39.873469808827274
+2025-08-12 12:13:25 [INFO ] Training predictor | Epoch: 1 | loss: 39.78548555788787
+2025-08-12 12:13:26 [INFO ] Training predictor | Epoch: 2 | loss: 39.76505611253821
+2025-08-12 12:13:27 [INFO ] Training predictor | Epoch: 3 | loss: 39.772176825481914
+2025-08-12 12:13:28 [INFO ] Training predictor | Epoch: 4 | loss: 39.788584253062375
+2025-08-12 12:13:30 [INFO ] Training | Epoch: 46 | loss: 40.02562489716903
+2025-08-12 12:13:31 [INFO ] Training predictor | Epoch: 0 | loss: 39.744152732517406
+2025-08-12 12:13:32 [INFO ] Training predictor | Epoch: 1 | loss: 39.86869132000467
+2025-08-12 12:13:33 [INFO ] Training predictor | Epoch: 2 | loss: 39.743288288945735
+2025-08-12 12:13:34 [INFO ] Training predictor | Epoch: 3 | loss: 39.8414133320684
+2025-08-12 12:13:35 [INFO ] Training predictor | Epoch: 4 | loss: 39.76371980750042
+2025-08-12 12:13:36 [INFO ] Training | Epoch: 47 | loss: 40.0360400158426
+2025-08-12 12:13:38 [INFO ] Training predictor | Epoch: 0 | loss: 39.71634989199431
+2025-08-12 12:13:39 [INFO ] Training predictor | Epoch: 1 | loss: 39.831084707508914
+2025-08-12 12:13:40 [INFO ] Training predictor | Epoch: 2 | loss: 39.745613844498344
+2025-08-12 12:13:41 [INFO ] Training predictor | Epoch: 3 | loss: 39.86725110593049
+2025-08-12 12:13:42 [INFO ] Training predictor | Epoch: 4 | loss: 39.82014805337657
+2025-08-12 12:13:43 [INFO ] Training | Epoch: 48 | loss: 40.111253572546914
+2025-08-12 12:13:44 [INFO ] Training predictor | Epoch: 0 | loss: 39.724525202875554
+2025-08-12 12:13:46 [INFO ] Training predictor | Epoch: 1 | loss: 39.78741388735564
+2025-08-12 12:13:47 [INFO ] Training predictor | Epoch: 2 | loss: 39.80626214068869
+2025-08-12 12:13:48 [INFO ] Training predictor | Epoch: 3 | loss: 39.899877631145976
+2025-08-12 12:13:49 [INFO ] Training predictor | Epoch: 4 | loss: 39.75246835791546
+2025-08-12 12:13:50 [INFO ] Training | Epoch: 49 | loss: 40.10320928822393
+2025-08-12 12:13:51 [INFO ] Training predictor | Epoch: 0 | loss: 39.80938463625701
+2025-08-12 12:13:52 [INFO ] Training predictor | Epoch: 1 | loss: 39.746384745058805
+2025-08-12 12:13:54 [INFO ] Training predictor | Epoch: 2 | loss: 39.771846107814625
+2025-08-12 12:13:55 [INFO ] Training predictor | Epoch: 3 | loss: 39.79430928437606
+2025-08-12 12:13:56 [INFO ] Training predictor | Epoch: 4 | loss: 39.81316972815472
+2025-08-12 12:14:02 [INFO ] Training | Epoch: 50 | loss: 40.03797904304836
+2025-08-12 12:14:03 [INFO ] Training predictor | Epoch: 0 | loss: 39.74711642057999
+2025-08-12 12:14:04 [INFO ] Training predictor | Epoch: 1 | loss: 39.77200980808424
+2025-08-12 12:14:05 [INFO ] Training predictor | Epoch: 2 | loss: 39.8297411877176
+2025-08-12 12:14:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.72310281836468
+2025-08-12 12:14:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.772879807845406
+2025-08-12 12:14:08 [INFO ] Training | Epoch: 51 | loss: 40.06985647782035
+2025-08-12 12:14:09 [INFO ] Training predictor | Epoch: 0 | loss: 39.74776724110479
+2025-08-12 12:14:11 [INFO ] Training predictor | Epoch: 1 | loss: 39.923867350039274
+2025-08-12 12:14:12 [INFO ] Training predictor | Epoch: 2 | loss: 39.722815057505734
+2025-08-12 12:14:13 [INFO ] Training predictor | Epoch: 3 | loss: 39.74851890232252
+2025-08-12 12:14:14 [INFO ] Training predictor | Epoch: 4 | loss: 39.72004931905995
+2025-08-12 12:14:15 [INFO ] Training | Epoch: 52 | loss: 40.08659395964249
+2025-08-12 12:14:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.78783275770105
+2025-08-12 12:14:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.84574259882388
+2025-08-12 12:14:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.79398719124172
+2025-08-12 12:14:22 [INFO ] Training predictor | Epoch: 3 | loss: 39.73625075298807
+2025-08-12 12:14:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.764794556990914
+2025-08-12 12:14:26 [INFO ] Training | Epoch: 53 | loss: 40.06932134213655
+2025-08-12 12:14:27 [INFO ] Training predictor | Epoch: 0 | loss: 39.7128266044285
+2025-08-12 12:14:28 [INFO ] Training predictor | Epoch: 1 | loss: 39.815315578294836
+2025-08-12 12:14:29 [INFO ] Training predictor | Epoch: 2 | loss: 39.7090426735256
+2025-08-12 12:14:30 [INFO ] Training predictor | Epoch: 3 | loss: 39.74422139706819
+2025-08-12 12:14:31 [INFO ] Training predictor | Epoch: 4 | loss: 39.725432188614555
+2025-08-12 12:14:33 [INFO ] Training | Epoch: 54 | loss: 40.019086174342945
+2025-08-12 12:14:34 [INFO ] Training predictor | Epoch: 0 | loss: 39.81260780666185
+2025-08-12 12:14:36 [INFO ] Training predictor | Epoch: 1 | loss: 39.69475795911706
+2025-08-12 12:14:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.67468908558721
+2025-08-12 12:14:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.84240415821905
+2025-08-12 12:14:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.7497906062914
+2025-08-12 12:14:58 [INFO ] Training | Epoch: 55 | loss: 40.041866965915844
+2025-08-12 12:14:59 [INFO ] Training predictor | Epoch: 0 | loss: 39.70945565596871
+2025-08-12 12:15:00 [INFO ] Training predictor | Epoch: 1 | loss: 39.76624057603919
+2025-08-12 12:15:01 [INFO ] Training predictor | Epoch: 2 | loss: 39.76387239539105
+2025-08-12 12:15:03 [INFO ] Training predictor | Epoch: 3 | loss: 39.77795451620351
+2025-08-12 12:15:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.75460185175357
+2025-08-12 12:15:04 [INFO ] Training | Epoch: 56 | loss: 39.96745233950408
+2025-08-12 12:15:05 [INFO ] Training predictor | Epoch: 0 | loss: 39.71488314089568
+2025-08-12 12:15:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.76135991967243
+2025-08-12 12:15:08 [INFO ] Training predictor | Epoch: 2 | loss: 39.65933559251868
+2025-08-12 12:15:09 [INFO ] Training predictor | Epoch: 3 | loss: 39.702421022498086
+2025-08-12 12:15:10 [INFO ] Training predictor | Epoch: 4 | loss: 39.75363432842752
+2025-08-12 12:15:11 [INFO ] Training | Epoch: 57 | loss: 40.04315583602242
+2025-08-12 12:15:12 [INFO ] Training predictor | Epoch: 0 | loss: 39.70527715268342
+2025-08-12 12:15:13 [INFO ] Training predictor | Epoch: 1 | loss: 39.710891308991805
+2025-08-12 12:15:14 [INFO ] Training predictor | Epoch: 2 | loss: 39.716720498126485
+2025-08-12 12:15:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.75140704279361
+2025-08-12 12:15:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.786545380302094
+2025-08-12 12:15:18 [INFO ] Training | Epoch: 58 | loss: 40.00961229075556
+2025-08-12 12:15:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.65482803013014
+2025-08-12 12:15:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.72057923026707
+2025-08-12 12:15:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.69390338400136
+2025-08-12 12:15:22 [INFO ] Training predictor | Epoch: 3 | loss: 39.71283008741296
+2025-08-12 12:15:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.77807890850565
+2025-08-12 12:15:24 [INFO ] Training | Epoch: 59 | loss: 40.0304365572722
+2025-08-12 12:15:25 [INFO ] Training predictor | Epoch: 0 | loss: 39.694931610770844
+2025-08-12 12:15:26 [INFO ] Training predictor | Epoch: 1 | loss: 39.72658298326575
+2025-08-12 12:15:27 [INFO ] Training predictor | Epoch: 2 | loss: 39.722269887509555
+2025-08-12 12:15:28 [INFO ] Training predictor | Epoch: 3 | loss: 39.669990871263586
+2025-08-12 12:15:30 [INFO ] Training predictor | Epoch: 4 | loss: 39.817371617192805
+2025-08-12 12:16:04 [INFO ] Training | Epoch: 60 | loss: 40.01968574523926
+2025-08-12 12:16:06 [INFO ] Training predictor | Epoch: 0 | loss: 39.81048360078231
+2025-08-12 12:16:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.74923747518788
+2025-08-12 12:16:08 [INFO ] Training predictor | Epoch: 2 | loss: 39.70730167886485
+2025-08-12 12:16:09 [INFO ] Training predictor | Epoch: 3 | loss: 39.71144966457201
+2025-08-12 12:16:10 [INFO ] Training predictor | Epoch: 4 | loss: 39.67032192064368
+2025-08-12 12:16:11 [INFO ] Training | Epoch: 61 | loss: 40.04277643950089
+2025-08-12 12:16:12 [INFO ] Training predictor | Epoch: 0 | loss: 39.70268075362496
+2025-08-12 12:16:13 [INFO ] Training predictor | Epoch: 1 | loss: 39.70997661093007
+2025-08-12 12:16:15 [INFO ] Training predictor | Epoch: 2 | loss: 39.69369266344153
+2025-08-12 12:16:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.73413459114406
+2025-08-12 12:16:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.66299952631412
+2025-08-12 12:16:18 [INFO ] Training | Epoch: 62 | loss: 39.99387857188349
+2025-08-12 12:16:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.68066522349482
+2025-08-12 12:16:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.85168871672257
+2025-08-12 12:16:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.79286185554836
+2025-08-12 12:16:22 [INFO ] Training predictor | Epoch: 3 | loss: 39.638805804045305
+2025-08-12 12:16:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.76324943874193
+2025-08-12 12:16:25 [INFO ] Training | Epoch: 63 | loss: 40.06912770478622
+2025-08-12 12:16:26 [INFO ] Training predictor | Epoch: 0 | loss: 39.77547670447308
+2025-08-12 12:16:27 [INFO ] Training predictor | Epoch: 1 | loss: 39.681605629299
+2025-08-12 12:16:28 [INFO ] Training predictor | Epoch: 2 | loss: 39.74773821623429
+2025-08-12 12:16:29 [INFO ] Training predictor | Epoch: 3 | loss: 39.75873010054879
+2025-08-12 12:16:30 [INFO ] Training predictor | Epoch: 4 | loss: 39.702519126560375
+2025-08-12 12:16:31 [INFO ] Training | Epoch: 64 | loss: 40.0152590378471
+2025-08-12 12:16:32 [INFO ] Training predictor | Epoch: 0 | loss: 39.646563488504164
+2025-08-12 12:16:33 [INFO ] Training predictor | Epoch: 1 | loss: 39.79891038977581
+2025-08-12 12:16:35 [INFO ] Training predictor | Epoch: 2 | loss: 39.69160013613494
+2025-08-12 12:16:36 [INFO ] Training predictor | Epoch: 3 | loss: 39.71283580945886
+2025-08-12 12:16:37 [INFO ] Training predictor | Epoch: 4 | loss: 39.69233438243037
+2025-08-12 12:16:52 [INFO ] Training | Epoch: 65 | loss: 40.02998766691788
+2025-08-12 12:16:54 [INFO ] Training predictor | Epoch: 0 | loss: 39.708219113557234
+2025-08-12 12:16:55 [INFO ] Training predictor | Epoch: 1 | loss: 39.74022392604662
+2025-08-12 12:16:56 [INFO ] Training predictor | Epoch: 2 | loss: 39.69592583697775
+2025-08-12 12:16:57 [INFO ] Training predictor | Epoch: 3 | loss: 39.70944545579993
+2025-08-12 12:16:58 [INFO ] Training predictor | Epoch: 4 | loss: 39.623865542204484
+2025-08-12 12:16:59 [INFO ] Training | Epoch: 66 | loss: 39.99424453403639
+2025-08-12 12:17:00 [INFO ] Training predictor | Epoch: 0 | loss: 39.754242606784985
+2025-08-12 12:17:01 [INFO ] Training predictor | Epoch: 1 | loss: 39.7922480210014
+2025-08-12 12:17:02 [INFO ] Training predictor | Epoch: 2 | loss: 39.71767740664275
+2025-08-12 12:17:03 [INFO ] Training predictor | Epoch: 3 | loss: 39.65510302004607
+2025-08-12 12:17:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.79620236935823
+2025-08-12 12:17:05 [INFO ] Training | Epoch: 67 | loss: 40.063735049703844
+2025-08-12 12:17:06 [INFO ] Training predictor | Epoch: 0 | loss: 39.671847467837125
+2025-08-12 12:17:08 [INFO ] Training predictor | Epoch: 1 | loss: 39.712307556815766
+2025-08-12 12:17:09 [INFO ] Training predictor | Epoch: 2 | loss: 39.749949911366336
+2025-08-12 12:17:10 [INFO ] Training predictor | Epoch: 3 | loss: 39.70857918780783
+2025-08-12 12:17:11 [INFO ] Training predictor | Epoch: 4 | loss: 39.70447623211405
+2025-08-12 12:17:12 [INFO ] Training | Epoch: 68 | loss: 40.06172752380371
+2025-08-12 12:17:13 [INFO ] Training predictor | Epoch: 0 | loss: 39.715866669364594
+2025-08-12 12:17:14 [INFO ] Training predictor | Epoch: 1 | loss: 39.82770538330078
+2025-08-12 12:17:15 [INFO ] Training predictor | Epoch: 2 | loss: 39.702970338904336
+2025-08-12 12:17:17 [INFO ] Training predictor | Epoch: 3 | loss: 39.7179593625276
+2025-08-12 12:17:18 [INFO ] Training predictor | Epoch: 4 | loss: 39.78631019592285
+2025-08-12 12:17:18 [INFO ] Training | Epoch: 69 | loss: 40.03872373829717
+2025-08-12 12:17:20 [INFO ] Training predictor | Epoch: 0 | loss: 39.75167150082795
+2025-08-12 12:17:21 [INFO ] Training predictor | Epoch: 1 | loss: 39.81451556993567
+2025-08-12 12:17:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.69748463837997
+2025-08-12 12:17:23 [INFO ] Training predictor | Epoch: 3 | loss: 39.68907588461171
+2025-08-12 12:17:24 [INFO ] Training predictor | Epoch: 4 | loss: 39.70433459074601
+2025-08-12 12:17:50 [INFO ] Training | Epoch: 70 | loss: 40.02944564819336
+2025-08-12 12:17:51 [INFO ] Training predictor | Epoch: 0 | loss: 39.7299106432044
+2025-08-12 12:17:52 [INFO ] Training predictor | Epoch: 1 | loss: 39.84521874137547
+2025-08-12 12:17:53 [INFO ] Training predictor | Epoch: 2 | loss: 39.67229901189389
+2025-08-12 12:17:54 [INFO ] Training predictor | Epoch: 3 | loss: 39.70722928254501
+2025-08-12 12:17:55 [INFO ] Training predictor | Epoch: 4 | loss: 39.721996058588445
+2025-08-12 12:17:56 [INFO ] Training | Epoch: 71 | loss: 39.974460684734844
+2025-08-12 12:17:58 [INFO ] Training predictor | Epoch: 0 | loss: 39.7045780679454
+2025-08-12 12:18:00 [INFO ] Training predictor | Epoch: 1 | loss: 39.724745791891344
+2025-08-12 12:18:01 [INFO ] Training predictor | Epoch: 2 | loss: 39.68113418247389
+2025-08-12 12:18:02 [INFO ] Training predictor | Epoch: 3 | loss: 39.66279684978983
+2025-08-12 12:18:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.71928297955057
+2025-08-12 12:18:06 [INFO ] Training | Epoch: 72 | loss: 40.10652450893236
+2025-08-12 12:18:07 [INFO ] Training predictor | Epoch: 0 | loss: 39.6944925059443
+2025-08-12 12:18:09 [INFO ] Training predictor | Epoch: 1 | loss: 39.70890393464462
+2025-08-12 12:18:10 [INFO ] Training predictor | Epoch: 2 | loss: 39.71505936332371
+2025-08-12 12:18:12 [INFO ] Training predictor | Epoch: 3 | loss: 39.723956978839375
+2025-08-12 12:18:13 [INFO ] Training predictor | Epoch: 4 | loss: 39.70612119591755
+2025-08-12 12:18:15 [INFO ] Training | Epoch: 73 | loss: 40.03695786517599
+2025-08-12 12:18:16 [INFO ] Training predictor | Epoch: 0 | loss: 39.709205129872196
+2025-08-12 12:18:17 [INFO ] Training predictor | Epoch: 1 | loss: 39.78148070625637
+2025-08-12 12:18:18 [INFO ] Training predictor | Epoch: 2 | loss: 39.726312969041906
+2025-08-12 12:18:19 [INFO ] Training predictor | Epoch: 3 | loss: 39.834070869114086
+2025-08-12 12:18:20 [INFO ] Training predictor | Epoch: 4 | loss: 39.72317811717158
+2025-08-12 12:18:22 [INFO ] Training | Epoch: 74 | loss: 40.041062977003016
+2025-08-12 12:18:23 [INFO ] Training predictor | Epoch: 0 | loss: 39.761662690535836
+2025-08-12 12:18:24 [INFO ] Training predictor | Epoch: 1 | loss: 39.69380461651346
+2025-08-12 12:18:25 [INFO ] Training predictor | Epoch: 2 | loss: 39.705915451049805
+2025-08-12 12:18:26 [INFO ] Training predictor | Epoch: 3 | loss: 39.712457988573156
+2025-08-12 12:18:27 [INFO ] Training predictor | Epoch: 4 | loss: 39.7043748938519
+2025-08-12 12:18:42 [INFO ] Training | Epoch: 75 | loss: 39.98070501244587
+2025-08-12 12:18:43 [INFO ] Training predictor | Epoch: 0 | loss: 39.729947629182234
+2025-08-12 12:18:44 [INFO ] Training predictor | Epoch: 1 | loss: 39.7554986373238
+2025-08-12 12:18:45 [INFO ] Training predictor | Epoch: 2 | loss: 39.69527294324792
+2025-08-12 12:18:46 [INFO ] Training predictor | Epoch: 3 | loss: 39.708357354869015
+2025-08-12 12:18:47 [INFO ] Training predictor | Epoch: 4 | loss: 39.744805211606234
+2025-08-12 12:18:48 [INFO ] Training | Epoch: 76 | loss: 40.05357758895211
+2025-08-12 12:18:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.65855482350225
+2025-08-12 12:18:51 [INFO ] Training predictor | Epoch: 1 | loss: 39.78331673663595
+2025-08-12 12:18:57 [INFO ] Training predictor | Epoch: 2 | loss: 39.73063062584919
+2025-08-12 12:19:03 [INFO ] Training predictor | Epoch: 3 | loss: 39.7852259926174
+2025-08-12 12:19:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.75959512461787
+2025-08-12 12:19:05 [INFO ] Training | Epoch: 77 | loss: 39.95646576259447
+2025-08-12 12:19:06 [INFO ] Training predictor | Epoch: 0 | loss: 39.68459560560144
+2025-08-12 12:19:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.71713911968729
+2025-08-12 12:19:08 [INFO ] Training predictor | Epoch: 2 | loss: 39.663161816804305
+2025-08-12 12:19:10 [INFO ] Training predictor | Epoch: 3 | loss: 39.7061014590056
+2025-08-12 12:19:11 [INFO ] Training predictor | Epoch: 4 | loss: 39.7245919600777
+2025-08-12 12:19:12 [INFO ] Training | Epoch: 78 | loss: 40.006287616232164
+2025-08-12 12:19:13 [INFO ] Training predictor | Epoch: 0 | loss: 39.67218739053477
+2025-08-12 12:19:14 [INFO ] Training predictor | Epoch: 1 | loss: 39.78820867123811
+2025-08-12 12:19:15 [INFO ] Training predictor | Epoch: 2 | loss: 39.67731724614682
+2025-08-12 12:19:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.67606826450514
+2025-08-12 12:19:18 [INFO ] Training predictor | Epoch: 4 | loss: 39.70545370682426
+2025-08-12 12:19:19 [INFO ] Training | Epoch: 79 | loss: 39.96848089798637
+2025-08-12 12:19:20 [INFO ] Training predictor | Epoch: 0 | loss: 39.69321060180664
+2025-08-12 12:19:21 [INFO ] Training predictor | Epoch: 1 | loss: 39.70343258069909
+2025-08-12 12:19:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.772696453592054
+2025-08-12 12:19:23 [INFO ] Training predictor | Epoch: 3 | loss: 39.677607992421024
+2025-08-12 12:19:25 [INFO ] Training predictor | Epoch: 4 | loss: 39.67139459692913
+2025-08-12 12:19:46 [INFO ] Training | Epoch: 80 | loss: 39.96293606965438
+2025-08-12 12:19:47 [INFO ] Training predictor | Epoch: 0 | loss: 39.719013131183125
+2025-08-12 12:19:48 [INFO ] Training predictor | Epoch: 1 | loss: 39.75653142514436
+2025-08-12 12:19:49 [INFO ] Training predictor | Epoch: 2 | loss: 39.72902505294137
+2025-08-12 12:19:50 [INFO ] Training predictor | Epoch: 3 | loss: 39.6982714611551
+2025-08-12 12:19:52 [INFO ] Training predictor | Epoch: 4 | loss: 39.67638082089631
+2025-08-12 12:19:52 [INFO ] Training | Epoch: 81 | loss: 40.02526689612347
+2025-08-12 12:19:54 [INFO ] Training predictor | Epoch: 0 | loss: 39.69763017737347
+2025-08-12 12:19:55 [INFO ] Training predictor | Epoch: 1 | loss: 39.74964987713358
+2025-08-12 12:19:56 [INFO ] Training predictor | Epoch: 2 | loss: 39.75595383022142
+2025-08-12 12:19:57 [INFO ] Training predictor | Epoch: 3 | loss: 39.65509422965672
+2025-08-12 12:19:58 [INFO ] Training predictor | Epoch: 4 | loss: 39.7295329881751
+2025-08-12 12:19:59 [INFO ] Training | Epoch: 82 | loss: 40.029223483541735
+2025-08-12 12:20:01 [INFO ] Training predictor | Epoch: 0 | loss: 39.66001178907312
+2025-08-12 12:20:02 [INFO ] Training predictor | Epoch: 1 | loss: 39.77384335061778
+2025-08-12 12:20:03 [INFO ] Training predictor | Epoch: 2 | loss: 39.674626060154125
+2025-08-12 12:20:04 [INFO ] Training predictor | Epoch: 3 | loss: 39.68605132724928
+2025-08-12 12:20:05 [INFO ] Training predictor | Epoch: 4 | loss: 39.74254682789678
+2025-08-12 12:20:06 [INFO ] Training | Epoch: 83 | loss: 40.039940129155696
+2025-08-12 12:20:07 [INFO ] Training predictor | Epoch: 0 | loss: 39.736433029174805
+2025-08-12 12:20:09 [INFO ] Training predictor | Epoch: 1 | loss: 39.69425218001656
+2025-08-12 12:20:10 [INFO ] Training predictor | Epoch: 2 | loss: 39.72426994987156
+2025-08-12 12:20:11 [INFO ] Training predictor | Epoch: 3 | loss: 39.7321776514468
+2025-08-12 12:20:12 [INFO ] Training predictor | Epoch: 4 | loss: 39.69984187250552
+2025-08-12 12:20:13 [INFO ] Training | Epoch: 84 | loss: 39.99506170853324
+2025-08-12 12:20:14 [INFO ] Training predictor | Epoch: 0 | loss: 39.7337124036706
+2025-08-12 12:20:15 [INFO ] Training predictor | Epoch: 1 | loss: 39.693233489990234
+2025-08-12 12:20:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.730754935223125
+2025-08-12 12:20:18 [INFO ] Training predictor | Epoch: 3 | loss: 39.688923711362094
+2025-08-12 12:20:19 [INFO ] Training predictor | Epoch: 4 | loss: 39.76964685191279
+2025-08-12 12:20:25 [INFO ] Training | Epoch: 85 | loss: 40.07816190304963
+2025-08-12 12:20:26 [INFO ] Training predictor | Epoch: 0 | loss: 39.69070816040039
+2025-08-12 12:20:27 [INFO ] Training predictor | Epoch: 1 | loss: 39.73951223622198
+2025-08-12 12:20:28 [INFO ] Training predictor | Epoch: 2 | loss: 39.73086813221807
+2025-08-12 12:20:30 [INFO ] Training predictor | Epoch: 3 | loss: 39.66671810979428
+2025-08-12 12:20:31 [INFO ] Training predictor | Epoch: 4 | loss: 39.67828858417013
+2025-08-12 12:20:32 [INFO ] Training | Epoch: 86 | loss: 39.99341234953507
+2025-08-12 12:20:33 [INFO ] Training predictor | Epoch: 0 | loss: 39.7153496120287
+2025-08-12 12:20:34 [INFO ] Training predictor | Epoch: 1 | loss: 39.7183139635169
+2025-08-12 12:20:36 [INFO ] Training predictor | Epoch: 2 | loss: 39.74188688526983
+2025-08-12 12:20:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.75907491601032
+2025-08-12 12:20:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.689890405406125
+2025-08-12 12:20:40 [INFO ] Training | Epoch: 87 | loss: 39.98827984022058
+2025-08-12 12:20:41 [INFO ] Training predictor | Epoch: 0 | loss: 39.77418252696162
+2025-08-12 12:20:42 [INFO ] Training predictor | Epoch: 1 | loss: 39.72485699860946
+2025-08-12 12:20:43 [INFO ] Training predictor | Epoch: 2 | loss: 39.719395678976305
+2025-08-12 12:20:45 [INFO ] Training predictor | Epoch: 3 | loss: 39.69455387281335
+2025-08-12 12:20:46 [INFO ] Training predictor | Epoch: 4 | loss: 39.73614161947499
+2025-08-12 12:20:47 [INFO ] Training | Epoch: 88 | loss: 40.01207509248153
+2025-08-12 12:20:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.7171048703401
+2025-08-12 12:20:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.6529771556025
+2025-08-12 12:20:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.71840858459473
+2025-08-12 12:20:52 [INFO ] Training predictor | Epoch: 3 | loss: 39.825536064479664
+2025-08-12 12:20:53 [INFO ] Training predictor | Epoch: 4 | loss: 39.7053512075673
+2025-08-12 12:20:55 [INFO ] Training | Epoch: 89 | loss: 39.943730064060375
+2025-08-12 12:20:56 [INFO ] Training predictor | Epoch: 0 | loss: 39.76145288218623
+2025-08-12 12:20:57 [INFO ] Training predictor | Epoch: 1 | loss: 39.68743722335152
+2025-08-12 12:20:58 [INFO ] Training predictor | Epoch: 2 | loss: 39.6952545331872
+2025-08-12 12:20:59 [INFO ] Training predictor | Epoch: 3 | loss: 39.754516435706094
+2025-08-12 12:21:00 [INFO ] Training predictor | Epoch: 4 | loss: 39.65237965791122
+2025-08-12 12:21:19 [INFO ] Training | Epoch: 90 | loss: 40.03495456861413
+2025-08-12 12:21:20 [INFO ] Training predictor | Epoch: 0 | loss: 39.748813048652984
+2025-08-12 12:21:21 [INFO ] Training predictor | Epoch: 1 | loss: 39.69766193887462
+2025-08-12 12:21:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.734561920166016
+2025-08-12 12:21:24 [INFO ] Training predictor | Epoch: 3 | loss: 39.707139388374664
+2025-08-12 12:21:25 [INFO ] Training predictor | Epoch: 4 | loss: 39.717296351557195
+2025-08-12 12:21:26 [INFO ] Training | Epoch: 91 | loss: 40.0468052573826
+2025-08-12 12:21:28 [INFO ] Training predictor | Epoch: 0 | loss: 39.73051469222359
+2025-08-12 12:21:29 [INFO ] Training predictor | Epoch: 1 | loss: 39.69013628752335
+2025-08-12 12:21:30 [INFO ] Training predictor | Epoch: 2 | loss: 39.70070805756942
+2025-08-12 12:21:31 [INFO ] Training predictor | Epoch: 3 | loss: 39.73890719206437
+2025-08-12 12:21:32 [INFO ] Training predictor | Epoch: 4 | loss: 39.73173713684082
+2025-08-12 12:21:33 [INFO ] Training | Epoch: 92 | loss: 40.017803026282266
+2025-08-12 12:21:34 [INFO ] Training predictor | Epoch: 0 | loss: 39.75835791878078
+2025-08-12 12:21:36 [INFO ] Training predictor | Epoch: 1 | loss: 39.75755956898565
+2025-08-12 12:21:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.701199573019274
+2025-08-12 12:21:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.72637889696204
+2025-08-12 12:21:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.72581904867421
+2025-08-12 12:21:40 [INFO ] Training | Epoch: 93 | loss: 39.947731930276625
+2025-08-12 12:21:41 [INFO ] Training predictor | Epoch: 0 | loss: 39.6752753879713
+2025-08-12 12:21:42 [INFO ] Training predictor | Epoch: 1 | loss: 39.747245954430625
+2025-08-12 12:21:44 [INFO ] Training predictor | Epoch: 2 | loss: 39.69238977846892
+2025-08-12 12:21:45 [INFO ] Training predictor | Epoch: 3 | loss: 39.7514996735946
+2025-08-12 12:21:46 [INFO ] Training predictor | Epoch: 4 | loss: 39.706704098245375
+2025-08-12 12:21:47 [INFO ] Training | Epoch: 94 | loss: 39.94275623819102
+2025-08-12 12:21:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.697186262711234
+2025-08-12 12:21:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.703826240871265
+2025-08-12 12:21:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.69836085775624
+2025-08-12 12:21:52 [INFO ] Training predictor | Epoch: 3 | loss: 39.68498130466627
+2025-08-12 12:21:58 [INFO ] Training predictor | Epoch: 4 | loss: 39.71462564883025
+2025-08-12 12:22:23 [INFO ] Training | Epoch: 95 | loss: 39.960620465485945
+2025-08-12 12:22:24 [INFO ] Training predictor | Epoch: 0 | loss: 39.67358207702637
+2025-08-12 12:22:25 [INFO ] Training predictor | Epoch: 1 | loss: 39.66220532292905
+2025-08-12 12:22:26 [INFO ] Training predictor | Epoch: 2 | loss: 39.73469775655995
+2025-08-12 12:22:27 [INFO ] Training predictor | Epoch: 3 | loss: 39.76869748986286
+2025-08-12 12:22:28 [INFO ] Training predictor | Epoch: 4 | loss: 39.649999867314875
+2025-08-12 12:22:30 [INFO ] Training | Epoch: 96 | loss: 39.901630816252336
+2025-08-12 12:22:31 [INFO ] Training predictor | Epoch: 0 | loss: 39.63276158208432
+2025-08-12 12:22:32 [INFO ] Training predictor | Epoch: 1 | loss: 39.71871251645295
+2025-08-12 12:22:33 [INFO ] Training predictor | Epoch: 2 | loss: 39.7123731530231
+2025-08-12 12:22:34 [INFO ] Training predictor | Epoch: 3 | loss: 39.745808228202485
+2025-08-12 12:22:35 [INFO ] Training predictor | Epoch: 4 | loss: 39.721149859221086
+2025-08-12 12:22:36 [INFO ] Training | Epoch: 97 | loss: 39.98540264627208
+2025-08-12 12:22:38 [INFO ] Training predictor | Epoch: 0 | loss: 39.62902367633322
+2025-08-12 12:22:39 [INFO ] Training predictor | Epoch: 1 | loss: 39.679583508035414
+2025-08-12 12:22:40 [INFO ] Training predictor | Epoch: 2 | loss: 39.693154956983484
+2025-08-12 12:22:41 [INFO ] Training predictor | Epoch: 3 | loss: 39.68120301288107
+2025-08-12 12:22:42 [INFO ] Training predictor | Epoch: 4 | loss: 39.670988165813945
+2025-08-12 12:22:43 [INFO ] Training | Epoch: 98 | loss: 39.98503884025242
+2025-08-12 12:22:45 [INFO ] Training predictor | Epoch: 0 | loss: 39.684613518092945
+2025-08-12 12:22:46 [INFO ] Training predictor | Epoch: 1 | loss: 39.70833305690599
+2025-08-12 12:22:47 [INFO ] Training predictor | Epoch: 2 | loss: 39.711004174273945
+2025-08-12 12:22:48 [INFO ] Training predictor | Epoch: 3 | loss: 39.69391972085704
+2025-08-12 12:22:49 [INFO ] Training predictor | Epoch: 4 | loss: 39.722687431003735
+2025-08-12 12:22:50 [INFO ] Training | Epoch: 99 | loss: 39.96054276176121
+2025-08-12 12:22:51 [INFO ] Training predictor | Epoch: 0 | loss: 39.64194820238196
+2025-08-12 12:22:52 [INFO ] Training predictor | Epoch: 1 | loss: 39.70640223959218
+2025-08-12 12:22:53 [INFO ] Training predictor | Epoch: 2 | loss: 39.690430019212805
+2025-08-12 12:22:54 [INFO ] Training predictor | Epoch: 3 | loss: 39.63036935225777
+2025-08-12 12:22:55 [INFO ] Training predictor | Epoch: 4 | loss: 39.66303095610245
+2025-08-12 12:23:07 [INFO ] Training | Epoch: 100 | loss: 39.97297038202701
+2025-08-12 12:23:08 [INFO ] Training predictor | Epoch: 0 | loss: 39.70485819940982
+2025-08-12 12:23:09 [INFO ] Training predictor | Epoch: 1 | loss: 39.68512186796769
+2025-08-12 12:23:10 [INFO ] Training predictor | Epoch: 2 | loss: 39.639916627303414
+2025-08-12 12:23:11 [INFO ] Training predictor | Epoch: 3 | loss: 39.68677479287852
+2025-08-12 12:23:12 [INFO ] Training predictor | Epoch: 4 | loss: 39.643527404121734
+2025-08-12 12:23:13 [INFO ] Training | Epoch: 101 | loss: 39.934896303259805
+2025-08-12 12:23:14 [INFO ] Training predictor | Epoch: 0 | loss: 39.74432049626889
+2025-08-12 12:23:16 [INFO ] Training predictor | Epoch: 1 | loss: 39.71674728393555
+2025-08-12 12:23:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.71369469684103
+2025-08-12 12:23:18 [INFO ] Training predictor | Epoch: 3 | loss: 39.68133669314177
+2025-08-12 12:23:19 [INFO ] Training predictor | Epoch: 4 | loss: 39.749508567478344
+2025-08-12 12:23:20 [INFO ] Training | Epoch: 102 | loss: 40.01630103069803
+2025-08-12 12:23:21 [INFO ] Training predictor | Epoch: 0 | loss: 39.75772957179857
+2025-08-12 12:23:22 [INFO ] Training predictor | Epoch: 1 | loss: 39.67496797312861
+2025-08-12 12:23:24 [INFO ] Training predictor | Epoch: 2 | loss: 39.719550920569375
+2025-08-12 12:23:25 [INFO ] Training predictor | Epoch: 3 | loss: 39.66050015325131
+2025-08-12 12:23:26 [INFO ] Training predictor | Epoch: 4 | loss: 39.73215310469918
+2025-08-12 12:23:27 [INFO ] Training | Epoch: 103 | loss: 40.046718763268515
+2025-08-12 12:23:29 [INFO ] Training predictor | Epoch: 0 | loss: 39.72330789980681
+2025-08-12 12:23:30 [INFO ] Training predictor | Epoch: 1 | loss: 39.6837916166886
+2025-08-12 12:23:31 [INFO ] Training predictor | Epoch: 2 | loss: 39.69056743124257
+2025-08-12 12:23:32 [INFO ] Training predictor | Epoch: 3 | loss: 39.73239749410878
+2025-08-12 12:23:33 [INFO ] Training predictor | Epoch: 4 | loss: 39.71568513953167
+2025-08-12 12:23:35 [INFO ] Training | Epoch: 104 | loss: 40.00472110250722
+2025-08-12 12:23:37 [INFO ] Training predictor | Epoch: 0 | loss: 39.73860599683679
+2025-08-12 12:23:38 [INFO ] Training predictor | Epoch: 1 | loss: 39.641384954037875
+2025-08-12 12:23:39 [INFO ] Training predictor | Epoch: 2 | loss: 39.69536623747452
+2025-08-12 12:23:41 [INFO ] Training predictor | Epoch: 3 | loss: 39.77654266357422
+2025-08-12 12:23:42 [INFO ] Training predictor | Epoch: 4 | loss: 39.67099927819294
+2025-08-12 12:24:05 [INFO ] Training | Epoch: 105 | loss: 39.96439270351244
+2025-08-12 12:24:06 [INFO ] Training predictor | Epoch: 0 | loss: 39.655333145805024
+2025-08-12 12:24:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.64774496658988
+2025-08-12 12:24:09 [INFO ] Training predictor | Epoch: 2 | loss: 39.7046946649966
+2025-08-12 12:24:10 [INFO ] Training predictor | Epoch: 3 | loss: 39.695562279742695
+2025-08-12 12:24:11 [INFO ] Training predictor | Epoch: 4 | loss: 39.65883968187415
+2025-08-12 12:24:12 [INFO ] Training | Epoch: 106 | loss: 39.951890779578164
+2025-08-12 12:24:13 [INFO ] Training predictor | Epoch: 0 | loss: 39.721133356509
+2025-08-12 12:24:14 [INFO ] Training predictor | Epoch: 1 | loss: 39.689731432043985
+2025-08-12 12:24:15 [INFO ] Training predictor | Epoch: 2 | loss: 39.67387307208517
+2025-08-12 12:24:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.686352439548656
+2025-08-12 12:24:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.78976772142493
+2025-08-12 12:24:18 [INFO ] Training | Epoch: 107 | loss: 39.934939840565555
+2025-08-12 12:24:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.62602258765179
+2025-08-12 12:24:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.626976759537406
+2025-08-12 12:24:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.67059566663659
+2025-08-12 12:24:22 [INFO ] Training predictor | Epoch: 3 | loss: 39.70510839379352
+2025-08-12 12:24:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.67134077652641
+2025-08-12 12:24:24 [INFO ] Training | Epoch: 108 | loss: 39.95618894825811
+2025-08-12 12:24:26 [INFO ] Training predictor | Epoch: 0 | loss: 39.727607561194375
+2025-08-12 12:24:27 [INFO ] Training predictor | Epoch: 1 | loss: 39.71107540959897
+2025-08-12 12:24:28 [INFO ] Training predictor | Epoch: 2 | loss: 39.645379854285196
+2025-08-12 12:24:29 [INFO ] Training predictor | Epoch: 3 | loss: 39.60931031600289
+2025-08-12 12:24:30 [INFO ] Training predictor | Epoch: 4 | loss: 39.726055228191875
+2025-08-12 12:24:31 [INFO ] Training | Epoch: 109 | loss: 39.986578402311906
+2025-08-12 12:24:32 [INFO ] Training predictor | Epoch: 0 | loss: 39.68767390043839
+2025-08-12 12:24:33 [INFO ] Training predictor | Epoch: 1 | loss: 39.681820413340695
+2025-08-12 12:24:34 [INFO ] Training predictor | Epoch: 2 | loss: 39.59850253229556
+2025-08-12 12:24:35 [INFO ] Training predictor | Epoch: 3 | loss: 39.670040794040844
+2025-08-12 12:24:36 [INFO ] Training predictor | Epoch: 4 | loss: 39.69165221504543
+2025-08-12 12:24:48 [INFO ] Training | Epoch: 110 | loss: 39.98074531555176
+2025-08-12 12:24:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.6892032623291
+2025-08-12 12:24:51 [INFO ] Training predictor | Epoch: 1 | loss: 39.68643893366275
+2025-08-12 12:24:52 [INFO ] Training predictor | Epoch: 2 | loss: 39.611809357352875
+2025-08-12 12:24:53 [INFO ] Training predictor | Epoch: 3 | loss: 39.64898175778596
+2025-08-12 12:24:54 [INFO ] Training predictor | Epoch: 4 | loss: 39.67974397410517
+2025-08-12 12:24:55 [INFO ] Training | Epoch: 111 | loss: 39.913699606190555
+2025-08-12 12:24:57 [INFO ] Training predictor | Epoch: 0 | loss: 39.67210396476414
+2025-08-12 12:24:58 [INFO ] Training predictor | Epoch: 1 | loss: 39.70592432436736
+2025-08-12 12:25:04 [INFO ] Training predictor | Epoch: 2 | loss: 39.63871466595194
+2025-08-12 12:25:08 [INFO ] Training predictor | Epoch: 3 | loss: 39.689561014590055
+2025-08-12 12:25:09 [INFO ] Training predictor | Epoch: 4 | loss: 39.67549282571544
+2025-08-12 12:25:10 [INFO ] Training | Epoch: 112 | loss: 39.92052667037301
+2025-08-12 12:25:11 [INFO ] Training predictor | Epoch: 0 | loss: 39.683308476987094
+2025-08-12 12:25:12 [INFO ] Training predictor | Epoch: 1 | loss: 39.68928660517154
+2025-08-12 12:25:13 [INFO ] Training predictor | Epoch: 2 | loss: 39.704387084297515
+2025-08-12 12:25:15 [INFO ] Training predictor | Epoch: 3 | loss: 39.687482170436695
+2025-08-12 12:25:19 [INFO ] Training predictor | Epoch: 4 | loss: 39.635809110558554
+2025-08-12 12:25:20 [INFO ] Training | Epoch: 113 | loss: 39.929007737532906
+2025-08-12 12:25:21 [INFO ] Training predictor | Epoch: 0 | loss: 39.630303258481234
+2025-08-12 12:25:23 [INFO ] Training predictor | Epoch: 1 | loss: 39.642979497494906
+2025-08-12 12:25:24 [INFO ] Training predictor | Epoch: 2 | loss: 39.66204021288001
+2025-08-12 12:25:25 [INFO ] Training predictor | Epoch: 3 | loss: 39.75487858316173
+2025-08-12 12:25:26 [INFO ] Training predictor | Epoch: 4 | loss: 39.72336661297342
+2025-08-12 12:25:27 [INFO ] Training | Epoch: 114 | loss: 39.943317330401875
+2025-08-12 12:25:29 [INFO ] Training predictor | Epoch: 0 | loss: 39.6774554874586
+2025-08-12 12:25:30 [INFO ] Training predictor | Epoch: 1 | loss: 39.66565820445185
+2025-08-12 12:25:31 [INFO ] Training predictor | Epoch: 2 | loss: 39.6765077010445
+2025-08-12 12:25:32 [INFO ] Training predictor | Epoch: 3 | loss: 39.712704865828805
+2025-08-12 12:25:33 [INFO ] Training predictor | Epoch: 4 | loss: 39.62371759829314
+2025-08-12 12:25:48 [INFO ] Training | Epoch: 115 | loss: 39.94430342964504
+2025-08-12 12:25:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.71312464838443
+2025-08-12 12:25:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.649203259011976
+2025-08-12 12:25:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.662923895794414
+2025-08-12 12:25:53 [INFO ] Training predictor | Epoch: 3 | loss: 39.72159493487814
+2025-08-12 12:25:54 [INFO ] Training predictor | Epoch: 4 | loss: 39.69315528869629
+2025-08-12 12:25:54 [INFO ] Training | Epoch: 116 | loss: 39.98254834050717
+2025-08-12 12:25:56 [INFO ] Training predictor | Epoch: 0 | loss: 39.731351271919586
+2025-08-12 12:25:57 [INFO ] Training predictor | Epoch: 1 | loss: 39.75024156985076
+2025-08-12 12:25:58 [INFO ] Training predictor | Epoch: 2 | loss: 39.66203689575195
+2025-08-12 12:25:59 [INFO ] Training predictor | Epoch: 3 | loss: 39.633194052654765
+2025-08-12 12:26:00 [INFO ] Training predictor | Epoch: 4 | loss: 39.66202992978303
+2025-08-12 12:26:01 [INFO ] Training | Epoch: 117 | loss: 39.99476971833602
+2025-08-12 12:26:02 [INFO ] Training predictor | Epoch: 0 | loss: 39.703785025555156
+2025-08-12 12:26:03 [INFO ] Training predictor | Epoch: 1 | loss: 39.79108238220215
+2025-08-12 12:26:04 [INFO ] Training predictor | Epoch: 2 | loss: 39.71513258892557
+2025-08-12 12:26:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.654304338538125
+2025-08-12 12:26:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.634809494018555
+2025-08-12 12:26:08 [INFO ] Training | Epoch: 118 | loss: 39.91454555677331
+2025-08-12 12:26:09 [INFO ] Training predictor | Epoch: 0 | loss: 39.676092064898945
+2025-08-12 12:26:10 [INFO ] Training predictor | Epoch: 1 | loss: 39.67741609656292
+2025-08-12 12:26:11 [INFO ] Training predictor | Epoch: 2 | loss: 39.66978479468304
+2025-08-12 12:26:12 [INFO ] Training predictor | Epoch: 3 | loss: 39.67593475010084
+2025-08-12 12:26:13 [INFO ] Training predictor | Epoch: 4 | loss: 39.71822000586468
+2025-08-12 12:26:14 [INFO ] Training | Epoch: 119 | loss: 39.96442620650582
+2025-08-12 12:26:15 [INFO ] Training predictor | Epoch: 0 | loss: 39.64725287064262
+2025-08-12 12:26:16 [INFO ] Training predictor | Epoch: 1 | loss: 39.69727201047151
+2025-08-12 12:26:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.64547389486562
+2025-08-12 12:26:18 [INFO ] Training predictor | Epoch: 3 | loss: 39.661324791286305
+2025-08-12 12:26:20 [INFO ] Training predictor | Epoch: 4 | loss: 39.6846689141315
+2025-08-12 12:26:32 [INFO ] Training | Epoch: 120 | loss: 39.88016468545665
+2025-08-12 12:26:33 [INFO ] Training predictor | Epoch: 0 | loss: 39.71560055276622
+2025-08-12 12:26:35 [INFO ] Training predictor | Epoch: 1 | loss: 39.701323799465015
+2025-08-12 12:26:36 [INFO ] Training predictor | Epoch: 2 | loss: 39.68788876740829
+2025-08-12 12:26:37 [INFO ] Training predictor | Epoch: 3 | loss: 39.67393079011337
+2025-08-12 12:26:38 [INFO ] Training predictor | Epoch: 4 | loss: 39.71086419146994
+2025-08-12 12:26:39 [INFO ] Training | Epoch: 121 | loss: 39.941791285639226
+2025-08-12 12:26:40 [INFO ] Training predictor | Epoch: 0 | loss: 39.627834900565766
+2025-08-12 12:26:41 [INFO ] Training predictor | Epoch: 1 | loss: 39.65753356270168
+2025-08-12 12:26:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.70668718089228
+2025-08-12 12:26:43 [INFO ] Training predictor | Epoch: 3 | loss: 39.711390453836195
+2025-08-12 12:26:44 [INFO ] Training predictor | Epoch: 4 | loss: 39.67821743177331
+2025-08-12 12:26:45 [INFO ] Training | Epoch: 122 | loss: 39.95296677299168
+2025-08-12 12:26:47 [INFO ] Training predictor | Epoch: 0 | loss: 39.655165050340734
+2025-08-12 12:26:48 [INFO ] Training predictor | Epoch: 1 | loss: 39.68899760038956
+2025-08-12 12:26:50 [INFO ] Training predictor | Epoch: 2 | loss: 39.69746158433997
+2025-08-12 12:26:51 [INFO ] Training predictor | Epoch: 3 | loss: 39.668624629145086
+2025-08-12 12:26:52 [INFO ] Training predictor | Epoch: 4 | loss: 39.703977501910664
+2025-08-12 12:26:53 [INFO ] Training | Epoch: 123 | loss: 39.967803457508914
+2025-08-12 12:26:54 [INFO ] Training predictor | Epoch: 0 | loss: 39.68164866903554
+2025-08-12 12:26:55 [INFO ] Training predictor | Epoch: 1 | loss: 39.62292662910793
+2025-08-12 12:26:56 [INFO ] Training predictor | Epoch: 2 | loss: 39.7014627871306
+2025-08-12 12:26:57 [INFO ] Training predictor | Epoch: 3 | loss: 39.699708523957625
+2025-08-12 12:26:58 [INFO ] Training predictor | Epoch: 4 | loss: 39.64419713227645
+2025-08-12 12:26:59 [INFO ] Training | Epoch: 124 | loss: 39.903138202169664
+2025-08-12 12:27:00 [INFO ] Training predictor | Epoch: 0 | loss: 39.66189956665039
+2025-08-12 12:27:01 [INFO ] Training predictor | Epoch: 1 | loss: 39.723481717317
+2025-08-12 12:27:02 [INFO ] Training predictor | Epoch: 2 | loss: 39.72231450288192
+2025-08-12 12:27:04 [INFO ] Training predictor | Epoch: 3 | loss: 39.68245522872262
+2025-08-12 12:27:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.642734361731485
+2025-08-12 12:27:23 [INFO ] Training | Epoch: 125 | loss: 39.884213654891305
+2025-08-12 12:27:24 [INFO ] Training predictor | Epoch: 0 | loss: 39.695072671641476
+2025-08-12 12:27:25 [INFO ] Training predictor | Epoch: 1 | loss: 39.68018241550612
+2025-08-12 12:27:26 [INFO ] Training predictor | Epoch: 2 | loss: 39.6487336366073
+2025-08-12 12:27:27 [INFO ] Training predictor | Epoch: 3 | loss: 39.62803202090056
+2025-08-12 12:27:28 [INFO ] Training predictor | Epoch: 4 | loss: 39.674127661663555
+2025-08-12 12:27:29 [INFO ] Training | Epoch: 126 | loss: 39.92973493493122
+2025-08-12 12:27:30 [INFO ] Training predictor | Epoch: 0 | loss: 39.64351645759914
+2025-08-12 12:27:31 [INFO ] Training predictor | Epoch: 1 | loss: 39.692487716674805
+2025-08-12 12:27:32 [INFO ] Training predictor | Epoch: 2 | loss: 39.622019062871516
+2025-08-12 12:27:33 [INFO ] Training predictor | Epoch: 3 | loss: 39.70353914343792
+2025-08-12 12:27:34 [INFO ] Training predictor | Epoch: 4 | loss: 39.707479808641516
+2025-08-12 12:27:35 [INFO ] Training | Epoch: 127 | loss: 39.88214525969132
+2025-08-12 12:27:36 [INFO ] Training predictor | Epoch: 0 | loss: 39.70460410740065
+2025-08-12 12:27:37 [INFO ] Training predictor | Epoch: 1 | loss: 39.673665668653406
+2025-08-12 12:27:38 [INFO ] Training predictor | Epoch: 2 | loss: 39.594840920489766
+2025-08-12 12:27:39 [INFO ] Training predictor | Epoch: 3 | loss: 39.70005391991657
+2025-08-12 12:27:41 [INFO ] Training predictor | Epoch: 4 | loss: 39.66799686266028
+2025-08-12 12:27:41 [INFO ] Training | Epoch: 128 | loss: 39.97287393652874
+2025-08-12 12:27:42 [INFO ] Training predictor | Epoch: 0 | loss: 39.698116965915844
+2025-08-12 12:27:43 [INFO ] Training predictor | Epoch: 1 | loss: 39.70253073650858
+2025-08-12 12:27:44 [INFO ] Training predictor | Epoch: 2 | loss: 39.66918621892514
+2025-08-12 12:27:45 [INFO ] Training predictor | Epoch: 3 | loss: 39.6279414633046
+2025-08-12 12:27:47 [INFO ] Training predictor | Epoch: 4 | loss: 39.71690368652344
+2025-08-12 12:27:48 [INFO ] Training | Epoch: 129 | loss: 39.934117856233016
+2025-08-12 12:27:48 [INFO ] Training predictor | Epoch: 0 | loss: 39.643124455991
+2025-08-12 12:27:49 [INFO ] Training predictor | Epoch: 1 | loss: 39.785623882127844
+2025-08-12 12:27:50 [INFO ] Training predictor | Epoch: 2 | loss: 39.68124290134596
+2025-08-12 12:27:51 [INFO ] Training predictor | Epoch: 3 | loss: 39.66708224752675
+2025-08-12 12:27:52 [INFO ] Training predictor | Epoch: 4 | loss: 39.64557913075323
+2025-08-12 12:27:59 [INFO ] Training | Epoch: 130 | loss: 39.866719619087554
+2025-08-12 12:28:00 [INFO ] Training predictor | Epoch: 0 | loss: 39.66463395823603
+2025-08-12 12:28:01 [INFO ] Training predictor | Epoch: 1 | loss: 39.66668659707774
+2025-08-12 12:28:02 [INFO ] Training predictor | Epoch: 2 | loss: 39.69798171001932
+2025-08-12 12:28:03 [INFO ] Training predictor | Epoch: 3 | loss: 39.69763987997304
+2025-08-12 12:28:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.664544478706695
+2025-08-12 12:28:10 [INFO ] Training | Epoch: 131 | loss: 39.906478633051336
+2025-08-12 12:28:10 [INFO ] Training predictor | Epoch: 0 | loss: 39.67974339360776
+2025-08-12 12:28:11 [INFO ] Training predictor | Epoch: 1 | loss: 39.64051785676376
+2025-08-12 12:28:12 [INFO ] Training predictor | Epoch: 2 | loss: 39.737614175547726
+2025-08-12 12:28:13 [INFO ] Training predictor | Epoch: 3 | loss: 39.64390754699707
+2025-08-12 12:28:14 [INFO ] Training predictor | Epoch: 4 | loss: 39.65525403230087
+2025-08-12 12:28:15 [INFO ] Training | Epoch: 132 | loss: 39.91519704072372
+2025-08-12 12:28:17 [INFO ] Training predictor | Epoch: 0 | loss: 39.708729536637016
+2025-08-12 12:28:18 [INFO ] Training predictor | Epoch: 1 | loss: 39.79799021845279
+2025-08-12 12:28:19 [INFO ] Training predictor | Epoch: 2 | loss: 39.651669212009594
+2025-08-12 12:28:19 [INFO ] Training predictor | Epoch: 3 | loss: 39.65385718967604
+2025-08-12 12:28:21 [INFO ] Training predictor | Epoch: 4 | loss: 39.64598713750424
+2025-08-12 12:28:22 [INFO ] Training | Epoch: 133 | loss: 39.92390690679135
+2025-08-12 12:28:23 [INFO ] Training predictor | Epoch: 0 | loss: 39.75551928644595
+2025-08-12 12:28:24 [INFO ] Training predictor | Epoch: 1 | loss: 39.70336093073306
+2025-08-12 12:28:25 [INFO ] Training predictor | Epoch: 2 | loss: 39.62292181927225
+2025-08-12 12:28:26 [INFO ] Training predictor | Epoch: 3 | loss: 39.645405396171235
+2025-08-12 12:28:27 [INFO ] Training predictor | Epoch: 4 | loss: 39.70140797158946
+2025-08-12 12:28:28 [INFO ] Training | Epoch: 134 | loss: 39.9394416809082
+2025-08-12 12:28:29 [INFO ] Training predictor | Epoch: 0 | loss: 39.67933323072351
+2025-08-12 12:28:30 [INFO ] Training predictor | Epoch: 1 | loss: 39.690564279970914
+2025-08-12 12:28:31 [INFO ] Training predictor | Epoch: 2 | loss: 39.66675849582838
+2025-08-12 12:28:32 [INFO ] Training predictor | Epoch: 3 | loss: 39.67572203926418
+2025-08-12 12:28:33 [INFO ] Training predictor | Epoch: 4 | loss: 39.67464015794837
+2025-08-12 12:28:52 [INFO ] Training | Epoch: 135 | loss: 39.97651042108951
+2025-08-12 12:28:53 [INFO ] Training predictor | Epoch: 0 | loss: 39.64799698539402
+2025-08-12 12:28:54 [INFO ] Training predictor | Epoch: 1 | loss: 39.684646025947906
+2025-08-12 12:28:55 [INFO ] Training predictor | Epoch: 2 | loss: 39.6869593910549
+2025-08-12 12:28:56 [INFO ] Training predictor | Epoch: 3 | loss: 39.74751165638799
+2025-08-12 12:28:57 [INFO ] Training predictor | Epoch: 4 | loss: 39.71249099399733
+2025-08-12 12:28:58 [INFO ] Training | Epoch: 136 | loss: 39.897000685982086
+2025-08-12 12:28:59 [INFO ] Training predictor | Epoch: 0 | loss: 39.71187102276346
+2025-08-12 12:29:00 [INFO ] Training predictor | Epoch: 1 | loss: 39.6958589139192
+2025-08-12 12:29:01 [INFO ] Training predictor | Epoch: 2 | loss: 39.62609913038171
+2025-08-12 12:29:02 [INFO ] Training predictor | Epoch: 3 | loss: 39.68355991529382
+2025-08-12 12:29:02 [INFO ] Training predictor | Epoch: 4 | loss: 39.622008448061734
+2025-08-12 12:29:04 [INFO ] Training | Epoch: 137 | loss: 39.980209267657735
+2025-08-12 12:29:04 [INFO ] Training predictor | Epoch: 0 | loss: 39.717690592226774
+2025-08-12 12:29:05 [INFO ] Training predictor | Epoch: 1 | loss: 39.77442517487899
+2025-08-12 12:29:06 [INFO ] Training predictor | Epoch: 2 | loss: 39.70397236036218
+2025-08-12 12:29:07 [INFO ] Training predictor | Epoch: 3 | loss: 39.66813435761825
+2025-08-12 12:29:08 [INFO ] Training predictor | Epoch: 4 | loss: 39.67813649384872
+2025-08-12 12:29:09 [INFO ] Training | Epoch: 138 | loss: 39.93361249177352
+2025-08-12 12:29:10 [INFO ] Training predictor | Epoch: 0 | loss: 39.68792766073476
+2025-08-12 12:29:11 [INFO ] Training predictor | Epoch: 1 | loss: 39.66632768382197
+2025-08-12 12:29:12 [INFO ] Training predictor | Epoch: 2 | loss: 39.684231136156164
+2025-08-12 12:29:13 [INFO ] Training predictor | Epoch: 3 | loss: 39.81361870143724
+2025-08-12 12:29:13 [INFO ] Training predictor | Epoch: 4 | loss: 39.742501549098805
+2025-08-12 12:29:14 [INFO ] Training | Epoch: 139 | loss: 39.89213727868122
+2025-08-12 12:29:15 [INFO ] Training predictor | Epoch: 0 | loss: 39.59727071679157
+2025-08-12 12:29:16 [INFO ] Training predictor | Epoch: 1 | loss: 39.62818892105766
+2025-08-12 12:29:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.66105776247771
+2025-08-12 12:29:18 [INFO ] Training predictor | Epoch: 3 | loss: 39.65100387904955
+2025-08-12 12:29:19 [INFO ] Training predictor | Epoch: 4 | loss: 39.682779229205586
+2025-08-12 12:29:27 [INFO ] Training | Epoch: 140 | loss: 39.98123691392981
+2025-08-12 12:29:28 [INFO ] Training predictor | Epoch: 0 | loss: 39.701433845188305
+2025-08-12 12:29:29 [INFO ] Training predictor | Epoch: 1 | loss: 39.687112974083945
+2025-08-12 12:29:30 [INFO ] Training predictor | Epoch: 2 | loss: 39.741633456686266
+2025-08-12 12:29:31 [INFO ] Training predictor | Epoch: 3 | loss: 39.65351146200429
+2025-08-12 12:29:32 [INFO ] Training predictor | Epoch: 4 | loss: 39.68191884911579
+2025-08-12 12:29:33 [INFO ] Training | Epoch: 141 | loss: 40.00727595453677
+2025-08-12 12:29:34 [INFO ] Training predictor | Epoch: 0 | loss: 39.667990560116976
+2025-08-12 12:29:35 [INFO ] Training predictor | Epoch: 1 | loss: 39.739850500355594
+2025-08-12 12:29:36 [INFO ] Training predictor | Epoch: 2 | loss: 39.713392423546836
+2025-08-12 12:29:37 [INFO ] Training predictor | Epoch: 3 | loss: 39.69461465918499
+2025-08-12 12:29:38 [INFO ] Training predictor | Epoch: 4 | loss: 39.66356708692468
+2025-08-12 12:29:39 [INFO ] Training | Epoch: 142 | loss: 39.93512103868567
+2025-08-12 12:29:40 [INFO ] Training predictor | Epoch: 0 | loss: 39.71370730192765
+2025-08-12 12:29:41 [INFO ] Training predictor | Epoch: 1 | loss: 39.81374516694442
+2025-08-12 12:29:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.69248580932617
+2025-08-12 12:29:42 [INFO ] Training predictor | Epoch: 3 | loss: 39.63499890203061
+2025-08-12 12:29:43 [INFO ] Training predictor | Epoch: 4 | loss: 39.681269935939625
+2025-08-12 12:29:44 [INFO ] Training | Epoch: 143 | loss: 39.93549139603324
+2025-08-12 12:29:46 [INFO ] Training predictor | Epoch: 0 | loss: 39.70597955454951
+2025-08-12 12:29:47 [INFO ] Training predictor | Epoch: 1 | loss: 39.73726629174274
+2025-08-12 12:29:48 [INFO ] Training predictor | Epoch: 2 | loss: 39.73929463262143
+2025-08-12 12:29:49 [INFO ] Training predictor | Epoch: 3 | loss: 39.64986361627994
+2025-08-12 12:29:50 [INFO ] Training predictor | Epoch: 4 | loss: 39.701440728229024
+2025-08-12 12:29:50 [INFO ] Training | Epoch: 144 | loss: 39.96345486848251
+2025-08-12 12:29:51 [INFO ] Training predictor | Epoch: 0 | loss: 39.68910930467688
+2025-08-12 12:29:53 [INFO ] Training predictor | Epoch: 1 | loss: 39.684735754261844
+2025-08-12 12:29:54 [INFO ] Training predictor | Epoch: 2 | loss: 39.708946228027344
+2025-08-12 12:29:55 [INFO ] Training predictor | Epoch: 3 | loss: 39.69680694911791
+2025-08-12 12:29:56 [INFO ] Training predictor | Epoch: 4 | loss: 39.65886895552926
+2025-08-12 12:30:21 [INFO ] Training | Epoch: 145 | loss: 39.90698764635169
+2025-08-12 12:30:22 [INFO ] Training predictor | Epoch: 0 | loss: 39.6827104817266
+2025-08-12 12:30:23 [INFO ] Training predictor | Epoch: 1 | loss: 39.627706859422766
+2025-08-12 12:30:24 [INFO ] Training predictor | Epoch: 2 | loss: 39.659835069075875
+2025-08-12 12:30:25 [INFO ] Training predictor | Epoch: 3 | loss: 39.642162074213445
+2025-08-12 12:30:26 [INFO ] Training predictor | Epoch: 4 | loss: 39.76196711996327
+2025-08-12 12:30:27 [INFO ] Training | Epoch: 146 | loss: 40.0273323059082
+2025-08-12 12:30:28 [INFO ] Training predictor | Epoch: 0 | loss: 39.67646889064623
+2025-08-12 12:30:29 [INFO ] Training predictor | Epoch: 1 | loss: 39.65876927583114
+2025-08-12 12:30:30 [INFO ] Training predictor | Epoch: 2 | loss: 39.704193612803586
+2025-08-12 12:30:31 [INFO ] Training predictor | Epoch: 3 | loss: 39.66236404750658
+2025-08-12 12:30:32 [INFO ] Training predictor | Epoch: 4 | loss: 39.704503598420516
+2025-08-12 12:30:33 [INFO ] Training | Epoch: 147 | loss: 39.98721321769383
+2025-08-12 12:30:34 [INFO ] Training predictor | Epoch: 0 | loss: 39.69917471512504
+2025-08-12 12:30:35 [INFO ] Training predictor | Epoch: 1 | loss: 39.65875418289848
+2025-08-12 12:30:36 [INFO ] Training predictor | Epoch: 2 | loss: 39.74432978422745
+2025-08-12 12:30:37 [INFO ] Training predictor | Epoch: 3 | loss: 39.71409524005392
+2025-08-12 12:30:38 [INFO ] Training predictor | Epoch: 4 | loss: 39.615959747977875
+2025-08-12 12:30:39 [INFO ] Training | Epoch: 148 | loss: 39.87426392928414
+2025-08-12 12:30:40 [INFO ] Training predictor | Epoch: 0 | loss: 39.64169983241869
+2025-08-12 12:30:41 [INFO ] Training predictor | Epoch: 1 | loss: 39.662111365276836
+2025-08-12 12:30:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.65524159307065
+2025-08-12 12:30:43 [INFO ] Training predictor | Epoch: 3 | loss: 39.71252856047257
+2025-08-12 12:30:44 [INFO ] Training predictor | Epoch: 4 | loss: 39.626081466674805
+2025-08-12 12:30:45 [INFO ] Training | Epoch: 149 | loss: 39.871038353961445
+2025-08-12 12:30:46 [INFO ] Training predictor | Epoch: 0 | loss: 39.65528794993525
+2025-08-12 12:30:47 [INFO ] Training predictor | Epoch: 1 | loss: 39.689719075741976
+2025-08-12 12:30:48 [INFO ] Training predictor | Epoch: 2 | loss: 39.60281977446183
+2025-08-12 12:30:49 [INFO ] Training predictor | Epoch: 3 | loss: 39.6859654136326
+2025-08-12 12:30:50 [INFO ] Training predictor | Epoch: 4 | loss: 39.68058967590332
+2025-08-12 12:30:57 [INFO ] Training | Epoch: 150 | loss: 39.93880686552628
+2025-08-12 12:30:58 [INFO ] Training predictor | Epoch: 0 | loss: 39.65466706649117
+2025-08-12 12:30:59 [INFO ] Training predictor | Epoch: 1 | loss: 39.68696594238281
+2025-08-12 12:31:00 [INFO ] Training predictor | Epoch: 2 | loss: 39.69934355694315
+2025-08-12 12:31:01 [INFO ] Training predictor | Epoch: 3 | loss: 39.69149854908819
+2025-08-12 12:31:01 [INFO ] Training predictor | Epoch: 4 | loss: 39.64579325136931
+2025-08-12 12:31:02 [INFO ] Training | Epoch: 151 | loss: 39.98227019931959
+2025-08-12 12:31:03 [INFO ] Training predictor | Epoch: 0 | loss: 39.74215971905252
+2025-08-12 12:31:04 [INFO ] Training predictor | Epoch: 1 | loss: 39.64475117559018
+2025-08-12 12:31:05 [INFO ] Training predictor | Epoch: 2 | loss: 39.638379884802774
+2025-08-12 12:31:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.68008688221807
+2025-08-12 12:31:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.69573311183763
+2025-08-12 12:31:08 [INFO ] Training | Epoch: 152 | loss: 39.98478250918181
+2025-08-12 12:31:09 [INFO ] Training predictor | Epoch: 0 | loss: 39.704430372818656
+2025-08-12 12:31:10 [INFO ] Training predictor | Epoch: 1 | loss: 39.71922327124554
+2025-08-12 12:31:11 [INFO ] Training predictor | Epoch: 2 | loss: 39.6667360222858
+2025-08-12 12:31:12 [INFO ] Training predictor | Epoch: 3 | loss: 39.686940483424976
+2025-08-12 12:31:13 [INFO ] Training predictor | Epoch: 4 | loss: 39.74779344641644
+2025-08-12 12:31:14 [INFO ] Training | Epoch: 153 | loss: 39.869923881862476
+2025-08-12 12:31:15 [INFO ] Training predictor | Epoch: 0 | loss: 39.67911330513332
+2025-08-12 12:31:16 [INFO ] Training predictor | Epoch: 1 | loss: 39.65346087580142
+2025-08-12 12:31:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.69406467935313
+2025-08-12 12:31:20 [INFO ] Training predictor | Epoch: 3 | loss: 39.64209946342137
+2025-08-12 12:31:21 [INFO ] Training predictor | Epoch: 4 | loss: 39.70391596918521
+2025-08-12 12:31:22 [INFO ] Training | Epoch: 154 | loss: 39.8992569964865
+2025-08-12 12:31:23 [INFO ] Training predictor | Epoch: 0 | loss: 39.63251719267472
+2025-08-12 12:31:24 [INFO ] Training predictor | Epoch: 1 | loss: 39.71279351607613
+2025-08-12 12:31:25 [INFO ] Training predictor | Epoch: 2 | loss: 39.6744849163553
+2025-08-12 12:31:26 [INFO ] Training predictor | Epoch: 3 | loss: 39.702006713203765
+2025-08-12 12:31:28 [INFO ] Training predictor | Epoch: 4 | loss: 39.6185768790867
+2025-08-12 12:31:51 [INFO ] Training | Epoch: 155 | loss: 39.96020715133004
+2025-08-12 12:31:52 [INFO ] Training predictor | Epoch: 0 | loss: 39.65371969471807
+2025-08-12 12:31:53 [INFO ] Training predictor | Epoch: 1 | loss: 39.7327470364778
+2025-08-12 12:31:54 [INFO ] Training predictor | Epoch: 2 | loss: 39.72002825529679
+2025-08-12 12:31:55 [INFO ] Training predictor | Epoch: 3 | loss: 39.63551164710003
+2025-08-12 12:31:56 [INFO ] Training predictor | Epoch: 4 | loss: 39.65925150332244
+2025-08-12 12:31:57 [INFO ] Training | Epoch: 156 | loss: 39.93868462935738
+2025-08-12 12:31:58 [INFO ] Training predictor | Epoch: 0 | loss: 39.6606618632441
+2025-08-12 12:31:59 [INFO ] Training predictor | Epoch: 1 | loss: 39.79319879283076
+2025-08-12 12:32:00 [INFO ] Training predictor | Epoch: 2 | loss: 39.68130236086638
+2025-08-12 12:32:01 [INFO ] Training predictor | Epoch: 3 | loss: 39.6852622654127
+2025-08-12 12:32:02 [INFO ] Training predictor | Epoch: 4 | loss: 39.63972448266071
+2025-08-12 12:32:03 [INFO ] Training | Epoch: 157 | loss: 39.93056645600692
+2025-08-12 12:32:04 [INFO ] Training predictor | Epoch: 0 | loss: 39.682934222014055
+2025-08-12 12:32:05 [INFO ] Training predictor | Epoch: 1 | loss: 39.70525617184846
+2025-08-12 12:32:06 [INFO ] Training predictor | Epoch: 2 | loss: 39.75842525648034
+2025-08-12 12:32:06 [INFO ] Training predictor | Epoch: 3 | loss: 39.678883096446164
+2025-08-12 12:32:07 [INFO ] Training predictor | Epoch: 4 | loss: 39.669648377791695
+2025-08-12 12:32:08 [INFO ] Training | Epoch: 158 | loss: 39.9230085455853
+2025-08-12 12:32:09 [INFO ] Training predictor | Epoch: 0 | loss: 39.67824645664381
+2025-08-12 12:32:10 [INFO ] Training predictor | Epoch: 1 | loss: 39.62159057285475
+2025-08-12 12:32:11 [INFO ] Training predictor | Epoch: 2 | loss: 39.624315427697226
+2025-08-12 12:32:11 [INFO ] Training predictor | Epoch: 3 | loss: 39.68477083289105
+2025-08-12 12:32:12 [INFO ] Training predictor | Epoch: 4 | loss: 39.63915393663489
+2025-08-12 12:32:13 [INFO ] Training | Epoch: 159 | loss: 39.922182166058086
+2025-08-12 12:32:14 [INFO ] Training predictor | Epoch: 0 | loss: 39.647510777349055
+2025-08-12 12:32:15 [INFO ] Training predictor | Epoch: 1 | loss: 39.664863420569375
+2025-08-12 12:32:16 [INFO ] Training predictor | Epoch: 2 | loss: 39.689029196034305
+2025-08-12 12:32:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.67205279806386
+2025-08-12 12:32:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.64743954202403
+2025-08-12 12:32:29 [INFO ] Training | Epoch: 160 | loss: 39.93049986466117
+2025-08-12 12:32:30 [INFO ] Training predictor | Epoch: 0 | loss: 39.69542030666185
+2025-08-12 12:32:31 [INFO ] Training predictor | Epoch: 1 | loss: 39.71282353608505
+2025-08-12 12:32:32 [INFO ] Training predictor | Epoch: 2 | loss: 39.70165791718856
+2025-08-12 12:32:32 [INFO ] Training predictor | Epoch: 3 | loss: 39.625330634739086
+2025-08-12 12:32:33 [INFO ] Training predictor | Epoch: 4 | loss: 39.64168241749639
+2025-08-12 12:32:34 [INFO ] Training | Epoch: 161 | loss: 39.91147646696671
+2025-08-12 12:32:35 [INFO ] Training predictor | Epoch: 0 | loss: 39.67388576009999
+2025-08-12 12:32:36 [INFO ] Training predictor | Epoch: 1 | loss: 39.7132448113483
+2025-08-12 12:32:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.6993700939676
+2025-08-12 12:32:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.626315738843836
+2025-08-12 12:32:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.639993584674336
+2025-08-12 12:32:40 [INFO ] Training | Epoch: 162 | loss: 39.90126601509426
+2025-08-12 12:32:41 [INFO ] Training predictor | Epoch: 0 | loss: 39.722876092661984
+2025-08-12 12:32:42 [INFO ] Training predictor | Epoch: 1 | loss: 39.65358145340629
+2025-08-12 12:32:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.64812535824983
+2025-08-12 12:32:43 [INFO ] Training predictor | Epoch: 3 | loss: 39.71918529012929
+2025-08-12 12:32:44 [INFO ] Training predictor | Epoch: 4 | loss: 39.670523850814156
+2025-08-12 12:32:45 [INFO ] Training | Epoch: 163 | loss: 39.879168054331906
+2025-08-12 12:32:46 [INFO ] Training predictor | Epoch: 0 | loss: 39.69093621295431
+2025-08-12 12:32:47 [INFO ] Training predictor | Epoch: 1 | loss: 39.648258706797726
+2025-08-12 12:32:48 [INFO ] Training predictor | Epoch: 2 | loss: 39.670941394308336
+2025-08-12 12:32:49 [INFO ] Training predictor | Epoch: 3 | loss: 39.70979508109715
+2025-08-12 12:32:50 [INFO ] Training predictor | Epoch: 4 | loss: 39.678282862124234
+2025-08-12 12:32:51 [INFO ] Training | Epoch: 164 | loss: 39.91377142201299
+2025-08-12 12:32:52 [INFO ] Training predictor | Epoch: 0 | loss: 39.65867440596871
+2025-08-12 12:32:53 [INFO ] Training predictor | Epoch: 1 | loss: 39.63905143737793
+2025-08-12 12:32:53 [INFO ] Training predictor | Epoch: 2 | loss: 39.73992322838825
+2025-08-12 12:32:54 [INFO ] Training predictor | Epoch: 3 | loss: 39.67335460496985
+2025-08-12 12:32:55 [INFO ] Training predictor | Epoch: 4 | loss: 39.694255414216414
+2025-08-12 12:33:18 [INFO ] Training | Epoch: 165 | loss: 39.91600277112878
+2025-08-12 12:33:19 [INFO ] Training predictor | Epoch: 0 | loss: 39.66104714766793
+2025-08-12 12:33:20 [INFO ] Training predictor | Epoch: 1 | loss: 39.6706716288691
+2025-08-12 12:33:21 [INFO ] Training predictor | Epoch: 2 | loss: 39.60213055817977
+2025-08-12 12:33:22 [INFO ] Training predictor | Epoch: 3 | loss: 39.66492644600246
+2025-08-12 12:33:23 [INFO ] Training predictor | Epoch: 4 | loss: 39.67786382592243
+2025-08-12 12:33:24 [INFO ] Training | Epoch: 166 | loss: 39.89368181643279
+2025-08-12 12:33:25 [INFO ] Training predictor | Epoch: 0 | loss: 39.68320879728898
+2025-08-12 12:33:25 [INFO ] Training predictor | Epoch: 1 | loss: 39.71313426805579
+2025-08-12 12:33:26 [INFO ] Training predictor | Epoch: 2 | loss: 39.623205931290336
+2025-08-12 12:33:27 [INFO ] Training predictor | Epoch: 3 | loss: 39.71413106503694
+2025-08-12 12:33:28 [INFO ] Training predictor | Epoch: 4 | loss: 39.58912982111392
+2025-08-12 12:33:29 [INFO ] Training | Epoch: 167 | loss: 39.90657383462657
+2025-08-12 12:33:30 [INFO ] Training predictor | Epoch: 0 | loss: 39.62982725060505
+2025-08-12 12:33:31 [INFO ] Training predictor | Epoch: 1 | loss: 39.71430637525476
+2025-08-12 12:33:32 [INFO ] Training predictor | Epoch: 2 | loss: 39.651001142418906
+2025-08-12 12:33:33 [INFO ] Training predictor | Epoch: 3 | loss: 39.69340880020805
+2025-08-12 12:33:33 [INFO ] Training predictor | Epoch: 4 | loss: 39.69522185947584
+2025-08-12 12:33:35 [INFO ] Training | Epoch: 168 | loss: 39.93385074449622
+2025-08-12 12:33:35 [INFO ] Training predictor | Epoch: 0 | loss: 39.74608554010806
+2025-08-12 12:33:36 [INFO ] Training predictor | Epoch: 1 | loss: 39.66312972359035
+2025-08-12 12:33:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.63292967754862
+2025-08-12 12:33:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.637759913568914
+2025-08-12 12:33:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.68706280252208
+2025-08-12 12:33:40 [INFO ] Training | Epoch: 169 | loss: 39.93883000249448
+2025-08-12 12:33:41 [INFO ] Training predictor | Epoch: 0 | loss: 39.66393877112347
+2025-08-12 12:33:41 [INFO ] Training predictor | Epoch: 1 | loss: 39.65250106479811
+2025-08-12 12:33:42 [INFO ] Training predictor | Epoch: 2 | loss: 39.649787985760234
+2025-08-12 12:33:43 [INFO ] Training predictor | Epoch: 3 | loss: 39.64031252653702
+2025-08-12 12:33:44 [INFO ] Training predictor | Epoch: 4 | loss: 39.67292346125064
+2025-08-12 12:33:55 [INFO ] Training | Epoch: 170 | loss: 39.91247674693232
+2025-08-12 12:33:55 [INFO ] Training predictor | Epoch: 0 | loss: 39.640928848930024
+2025-08-12 12:33:56 [INFO ] Training predictor | Epoch: 1 | loss: 39.719198061072305
+2025-08-12 12:33:57 [INFO ] Training predictor | Epoch: 2 | loss: 39.691773953645125
+2025-08-12 12:33:58 [INFO ] Training predictor | Epoch: 3 | loss: 39.662599148957625
+2025-08-12 12:33:59 [INFO ] Training predictor | Epoch: 4 | loss: 39.66450102432914
+2025-08-12 12:34:00 [INFO ] Training | Epoch: 171 | loss: 39.909127028092094
+2025-08-12 12:34:01 [INFO ] Training predictor | Epoch: 0 | loss: 39.59656524658203
+2025-08-12 12:34:02 [INFO ] Training predictor | Epoch: 1 | loss: 39.62492395483929
+2025-08-12 12:34:02 [INFO ] Training predictor | Epoch: 2 | loss: 39.6862847701363
+2025-08-12 12:34:03 [INFO ] Training predictor | Epoch: 3 | loss: 39.71701149318529
+2025-08-12 12:34:04 [INFO ] Training predictor | Epoch: 4 | loss: 39.64945668759553
+2025-08-12 12:34:05 [INFO ] Training | Epoch: 172 | loss: 39.85529236171556
+2025-08-12 12:34:06 [INFO ] Training predictor | Epoch: 0 | loss: 39.63237356102985
+2025-08-12 12:34:07 [INFO ] Training predictor | Epoch: 1 | loss: 39.60422043178392
+2025-08-12 12:34:07 [INFO ] Training predictor | Epoch: 2 | loss: 39.69538050112517
+2025-08-12 12:34:08 [INFO ] Training predictor | Epoch: 3 | loss: 39.700215961622156
+2025-08-12 12:34:09 [INFO ] Training predictor | Epoch: 4 | loss: 39.63850402832031
+2025-08-12 12:34:10 [INFO ] Training | Epoch: 173 | loss: 39.88734867261804
+2025-08-12 12:34:11 [INFO ] Training predictor | Epoch: 0 | loss: 39.62673858974291
+2025-08-12 12:34:14 [INFO ] Training predictor | Epoch: 1 | loss: 39.634448590485945
+2025-08-12 12:34:15 [INFO ] Training predictor | Epoch: 2 | loss: 39.66901646489682
+2025-08-12 12:34:16 [INFO ] Training predictor | Epoch: 3 | loss: 39.69182843747346
+2025-08-12 12:34:17 [INFO ] Training predictor | Epoch: 4 | loss: 39.67459098152492
+2025-08-12 12:34:18 [INFO ] Training | Epoch: 174 | loss: 39.90657499562139
+2025-08-12 12:34:20 [INFO ] Training predictor | Epoch: 0 | loss: 39.67937088012695
+2025-08-12 12:34:21 [INFO ] Training predictor | Epoch: 1 | loss: 39.717838784922726
+2025-08-12 12:34:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.65278841101605
+2025-08-12 12:34:23 [INFO ] Training predictor | Epoch: 3 | loss: 39.681219681449555
+2025-08-12 12:34:24 [INFO ] Training predictor | Epoch: 4 | loss: 39.62647106336511
+2025-08-12 12:34:51 [INFO ] Training | Epoch: 175 | loss: 39.92976603300675
+2025-08-12 12:34:52 [INFO ] Training predictor | Epoch: 0 | loss: 39.65003826307214
+2025-08-12 12:34:53 [INFO ] Training predictor | Epoch: 1 | loss: 39.698527460512906
+2025-08-12 12:34:54 [INFO ] Training predictor | Epoch: 2 | loss: 39.65719463514245
+2025-08-12 12:34:55 [INFO ] Training predictor | Epoch: 3 | loss: 39.67607473290485
+2025-08-12 12:34:56 [INFO ] Training predictor | Epoch: 4 | loss: 39.700467482857086
+2025-08-12 12:34:57 [INFO ] Training | Epoch: 176 | loss: 39.9368024908978
+2025-08-12 12:34:57 [INFO ] Training predictor | Epoch: 0 | loss: 39.683298110961914
+2025-08-12 12:34:58 [INFO ] Training predictor | Epoch: 1 | loss: 39.62679581020189
+2025-08-12 12:34:59 [INFO ] Training predictor | Epoch: 2 | loss: 39.7155238441799
+2025-08-12 12:35:00 [INFO ] Training predictor | Epoch: 3 | loss: 39.65156372733738
+2025-08-12 12:35:01 [INFO ] Training predictor | Epoch: 4 | loss: 39.63799518087636
+2025-08-12 12:35:02 [INFO ] Training | Epoch: 177 | loss: 39.904685061910875
+2025-08-12 12:35:02 [INFO ] Training predictor | Epoch: 0 | loss: 39.633717329605766
+2025-08-12 12:35:03 [INFO ] Training predictor | Epoch: 1 | loss: 39.66520309448242
+2025-08-12 12:35:04 [INFO ] Training predictor | Epoch: 2 | loss: 39.630334771197774
+2025-08-12 12:35:05 [INFO ] Training predictor | Epoch: 3 | loss: 39.70046134617018
+2025-08-12 12:35:06 [INFO ] Training predictor | Epoch: 4 | loss: 39.673704064410664
+2025-08-12 12:35:07 [INFO ] Training | Epoch: 178 | loss: 39.855502252993375
+2025-08-12 12:35:08 [INFO ] Training predictor | Epoch: 0 | loss: 39.656847331834875
+2025-08-12 12:35:09 [INFO ] Training predictor | Epoch: 1 | loss: 39.72500825964886
+2025-08-12 12:35:09 [INFO ] Training predictor | Epoch: 2 | loss: 39.66598237079123
+2025-08-12 12:35:10 [INFO ] Training predictor | Epoch: 3 | loss: 39.66742515563965
+2025-08-12 12:35:11 [INFO ] Training predictor | Epoch: 4 | loss: 39.68538350644319
+2025-08-12 12:35:12 [INFO ] Training | Epoch: 179 | loss: 39.92850610484248
+2025-08-12 12:35:13 [INFO ] Training predictor | Epoch: 0 | loss: 39.652956755264945
+2025-08-12 12:35:13 [INFO ] Training predictor | Epoch: 1 | loss: 39.680193859597914
+2025-08-12 12:35:14 [INFO ] Training predictor | Epoch: 2 | loss: 39.64191138226053
+2025-08-12 12:35:15 [INFO ] Training predictor | Epoch: 3 | loss: 39.72143281024435
+2025-08-12 12:35:16 [INFO ] Training predictor | Epoch: 4 | loss: 39.64371913412343
+2025-08-12 12:35:33 [INFO ] Training | Epoch: 180 | loss: 39.87170153078826
+2025-08-12 12:35:33 [INFO ] Training predictor | Epoch: 0 | loss: 39.640329609746516
+2025-08-12 12:35:34 [INFO ] Training predictor | Epoch: 1 | loss: 39.65700273928435
+2025-08-12 12:35:35 [INFO ] Training predictor | Epoch: 2 | loss: 39.677210932192594
+2025-08-12 12:35:36 [INFO ] Training predictor | Epoch: 3 | loss: 39.712323644886844
+2025-08-12 12:35:37 [INFO ] Training predictor | Epoch: 4 | loss: 39.693688599959664
+2025-08-12 12:35:37 [INFO ] Training | Epoch: 181 | loss: 39.94287805971892
+2025-08-12 12:35:38 [INFO ] Training predictor | Epoch: 0 | loss: 39.700017846148945
+2025-08-12 12:35:39 [INFO ] Training predictor | Epoch: 1 | loss: 39.66114525173021
+2025-08-12 12:35:40 [INFO ] Training predictor | Epoch: 2 | loss: 39.67173012443211
+2025-08-12 12:35:41 [INFO ] Training predictor | Epoch: 3 | loss: 39.68266420779021
+2025-08-12 12:35:42 [INFO ] Training predictor | Epoch: 4 | loss: 39.75494749649711
+2025-08-12 12:35:43 [INFO ] Training | Epoch: 182 | loss: 39.96920975394871
+2025-08-12 12:35:44 [INFO ] Training predictor | Epoch: 0 | loss: 39.721137419990875
+2025-08-12 12:35:45 [INFO ] Training predictor | Epoch: 1 | loss: 39.656142276266344
+2025-08-12 12:35:46 [INFO ] Training predictor | Epoch: 2 | loss: 39.6668471460757
+2025-08-12 12:35:47 [INFO ] Training predictor | Epoch: 3 | loss: 39.69165345896845
+2025-08-12 12:35:47 [INFO ] Training predictor | Epoch: 4 | loss: 39.679055338320524
+2025-08-12 12:35:48 [INFO ] Training | Epoch: 183 | loss: 39.93264778800633
+2025-08-12 12:35:49 [INFO ] Training predictor | Epoch: 0 | loss: 39.695641724959664
+2025-08-12 12:35:50 [INFO ] Training predictor | Epoch: 1 | loss: 39.65166125090226
+2025-08-12 12:35:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.65733893021293
+2025-08-12 12:35:51 [INFO ] Training predictor | Epoch: 3 | loss: 39.698365087094516
+2025-08-12 12:35:53 [INFO ] Training predictor | Epoch: 4 | loss: 39.62035046453061
+2025-08-12 12:35:53 [INFO ] Training | Epoch: 184 | loss: 39.89995367630668
+2025-08-12 12:35:54 [INFO ] Training predictor | Epoch: 0 | loss: 39.692321611487344
+2025-08-12 12:35:55 [INFO ] Training predictor | Epoch: 1 | loss: 39.688849573550016
+2025-08-12 12:35:56 [INFO ] Training predictor | Epoch: 2 | loss: 39.765663146972656
+2025-08-12 12:35:57 [INFO ] Training predictor | Epoch: 3 | loss: 39.660083853680156
+2025-08-12 12:35:58 [INFO ] Training predictor | Epoch: 4 | loss: 39.6313241046408
+2025-08-12 12:36:22 [INFO ] Training | Epoch: 185 | loss: 39.87788988196331
+2025-08-12 12:36:23 [INFO ] Training predictor | Epoch: 0 | loss: 39.69329046166462
+2025-08-12 12:36:24 [INFO ] Training predictor | Epoch: 1 | loss: 39.66549690910008
+2025-08-12 12:36:25 [INFO ] Training predictor | Epoch: 2 | loss: 39.651904396388844
+2025-08-12 12:36:26 [INFO ] Training predictor | Epoch: 3 | loss: 39.677213254182234
+2025-08-12 12:36:27 [INFO ] Training predictor | Epoch: 4 | loss: 39.62353955144467
+2025-08-12 12:36:28 [INFO ] Training | Epoch: 186 | loss: 39.90868651348612
+2025-08-12 12:36:28 [INFO ] Training predictor | Epoch: 0 | loss: 39.63444485871688
+2025-08-12 12:36:29 [INFO ] Training predictor | Epoch: 1 | loss: 39.62796219535496
+2025-08-12 12:36:30 [INFO ] Training predictor | Epoch: 2 | loss: 39.71694631161897
+2025-08-12 12:36:31 [INFO ] Training predictor | Epoch: 3 | loss: 39.66172044173531
+2025-08-12 12:36:32 [INFO ] Training predictor | Epoch: 4 | loss: 39.66111589514691
+2025-08-12 12:36:33 [INFO ] Training | Epoch: 187 | loss: 39.89093838567319
+2025-08-12 12:36:33 [INFO ] Training predictor | Epoch: 0 | loss: 39.63867643605108
+2025-08-12 12:36:34 [INFO ] Training predictor | Epoch: 1 | loss: 39.68283122518788
+2025-08-12 12:36:35 [INFO ] Training predictor | Epoch: 2 | loss: 39.791196574335515
+2025-08-12 12:36:36 [INFO ] Training predictor | Epoch: 3 | loss: 39.6315682452658
+2025-08-12 12:36:37 [INFO ] Training predictor | Epoch: 4 | loss: 39.57532932447351
+2025-08-12 12:36:38 [INFO ] Training | Epoch: 188 | loss: 39.88014959252399
+2025-08-12 12:36:38 [INFO ] Training predictor | Epoch: 0 | loss: 39.67597928254501
+2025-08-12 12:36:39 [INFO ] Training predictor | Epoch: 1 | loss: 39.75641059875488
+2025-08-12 12:36:40 [INFO ] Training predictor | Epoch: 2 | loss: 39.69309723895529
+2025-08-12 12:36:41 [INFO ] Training predictor | Epoch: 3 | loss: 39.668727045473844
+2025-08-12 12:36:42 [INFO ] Training predictor | Epoch: 4 | loss: 39.67997061687967
+2025-08-12 12:36:42 [INFO ] Training | Epoch: 189 | loss: 39.89659359144128
+2025-08-12 12:36:43 [INFO ] Training predictor | Epoch: 0 | loss: 39.64325274591861
+2025-08-12 12:36:44 [INFO ] Training predictor | Epoch: 1 | loss: 39.68118916387143
+2025-08-12 12:36:45 [INFO ] Training predictor | Epoch: 2 | loss: 39.68798338848612
+2025-08-12 12:36:46 [INFO ] Training predictor | Epoch: 3 | loss: 39.64582036889118
+2025-08-12 12:36:47 [INFO ] Training predictor | Epoch: 4 | loss: 39.660825480585515
+2025-08-12 12:37:14 [INFO ] Training | Epoch: 190 | loss: 39.89224997810695
+2025-08-12 12:37:15 [INFO ] Training predictor | Epoch: 0 | loss: 39.64911344776983
+2025-08-12 12:37:16 [INFO ] Training predictor | Epoch: 1 | loss: 39.69043366805367
+2025-08-12 12:37:17 [INFO ] Training predictor | Epoch: 2 | loss: 39.610361348027766
+2025-08-12 12:37:18 [INFO ] Training predictor | Epoch: 3 | loss: 39.71178253837254
+2025-08-12 12:37:19 [INFO ] Training predictor | Epoch: 4 | loss: 39.66781325962233
+2025-08-12 12:37:20 [INFO ] Training | Epoch: 191 | loss: 39.83235276263693
+2025-08-12 12:37:21 [INFO ] Training predictor | Epoch: 0 | loss: 39.69666555653448
+2025-08-12 12:37:22 [INFO ] Training predictor | Epoch: 1 | loss: 39.757643575253695
+2025-08-12 12:37:22 [INFO ] Training predictor | Epoch: 2 | loss: 39.64000477998153
+2025-08-12 12:37:23 [INFO ] Training predictor | Epoch: 3 | loss: 39.60896359319272
+2025-08-12 12:37:24 [INFO ] Training predictor | Epoch: 4 | loss: 39.65791942762292
+2025-08-12 12:37:25 [INFO ] Training | Epoch: 192 | loss: 39.86873759394107
+2025-08-12 12:37:26 [INFO ] Training predictor | Epoch: 0 | loss: 39.65244210284689
+2025-08-12 12:37:27 [INFO ] Training predictor | Epoch: 1 | loss: 39.63352858501932
+2025-08-12 12:37:27 [INFO ] Training predictor | Epoch: 2 | loss: 39.65869049403978
+2025-08-12 12:37:28 [INFO ] Training predictor | Epoch: 3 | loss: 39.64532130697499
+2025-08-12 12:37:29 [INFO ] Training predictor | Epoch: 4 | loss: 39.63345419842264
+2025-08-12 12:37:30 [INFO ] Training | Epoch: 193 | loss: 39.99151428886082
+2025-08-12 12:37:31 [INFO ] Training predictor | Epoch: 0 | loss: 39.70417545152747
+2025-08-12 12:37:32 [INFO ] Training predictor | Epoch: 1 | loss: 39.640357971191406
+2025-08-12 12:37:33 [INFO ] Training predictor | Epoch: 2 | loss: 39.68903301073157
+2025-08-12 12:37:34 [INFO ] Training predictor | Epoch: 3 | loss: 39.65666381172512
+2025-08-12 12:37:34 [INFO ] Training predictor | Epoch: 4 | loss: 39.617596667745836
+2025-08-12 12:37:35 [INFO ] Training | Epoch: 194 | loss: 39.88308143615723
+2025-08-12 12:37:36 [INFO ] Training predictor | Epoch: 0 | loss: 39.6978412296461
+2025-08-12 12:37:37 [INFO ] Training predictor | Epoch: 1 | loss: 39.68448033540145
+2025-08-12 12:37:37 [INFO ] Training predictor | Epoch: 2 | loss: 39.69626758409583
+2025-08-12 12:37:38 [INFO ] Training predictor | Epoch: 3 | loss: 39.652637564617656
+2025-08-12 12:37:39 [INFO ] Training predictor | Epoch: 4 | loss: 39.66550619705863
+2025-08-12 12:37:49 [INFO ] Training | Epoch: 195 | loss: 39.91462359221085
+2025-08-12 12:37:50 [INFO ] Training predictor | Epoch: 0 | loss: 39.654243552166484
+2025-08-12 12:37:51 [INFO ] Training predictor | Epoch: 1 | loss: 39.701215246449344
+2025-08-12 12:37:51 [INFO ] Training predictor | Epoch: 2 | loss: 39.660090487936266
+2025-08-12 12:37:52 [INFO ] Training predictor | Epoch: 3 | loss: 39.60169236556344
+2025-08-12 12:37:54 [INFO ] Training predictor | Epoch: 4 | loss: 39.62436700903851
+2025-08-12 12:37:55 [INFO ] Training | Epoch: 196 | loss: 39.8900904448136
+2025-08-12 12:37:55 [INFO ] Training predictor | Epoch: 0 | loss: 39.67797669120457
+2025-08-12 12:37:56 [INFO ] Training predictor | Epoch: 1 | loss: 39.69239798836086
+2025-08-12 12:37:58 [INFO ] Training predictor | Epoch: 2 | loss: 39.734159718389094
+2025-08-12 12:37:59 [INFO ] Training predictor | Epoch: 3 | loss: 39.70069172071374
+2025-08-12 12:38:00 [INFO ] Training predictor | Epoch: 4 | loss: 39.646472267482594
+2025-08-12 12:38:01 [INFO ] Training | Epoch: 197 | loss: 39.9113714798637
+2025-08-12 12:38:02 [INFO ] Training predictor | Epoch: 0 | loss: 39.66691199592922
+2025-08-12 12:38:03 [INFO ] Training predictor | Epoch: 1 | loss: 39.61001014709473
+2025-08-12 12:38:04 [INFO ] Training predictor | Epoch: 2 | loss: 39.67401189389436
+2025-08-12 12:38:05 [INFO ] Training predictor | Epoch: 3 | loss: 39.654064841892406
+2025-08-12 12:38:06 [INFO ] Training predictor | Epoch: 4 | loss: 39.68031717383343
+2025-08-12 12:38:07 [INFO ] Training | Epoch: 198 | loss: 39.911436661430024
+2025-08-12 12:38:08 [INFO ] Training predictor | Epoch: 0 | loss: 39.6552558567213
+2025-08-12 12:38:09 [INFO ] Training predictor | Epoch: 1 | loss: 39.6495824067489
+2025-08-12 12:38:10 [INFO ] Training predictor | Epoch: 2 | loss: 39.73285467728324
+2025-08-12 12:38:11 [INFO ] Training predictor | Epoch: 3 | loss: 39.74163743723994
+2025-08-12 12:38:12 [INFO ] Training predictor | Epoch: 4 | loss: 39.64873280732528
+2025-08-12 12:38:13 [INFO ] Training | Epoch: 199 | loss: 39.87962789120881
+2025-08-12 12:38:14 [INFO ] Training predictor | Epoch: 0 | loss: 39.68287691862687
+2025-08-12 12:38:15 [INFO ] Training predictor | Epoch: 1 | loss: 39.649237093718156
+2025-08-12 12:38:16 [INFO ] Training predictor | Epoch: 2 | loss: 39.60566412884256
+2025-08-12 12:38:17 [INFO ] Training predictor | Epoch: 3 | loss: 39.64700325675633
+2025-08-12 12:38:18 [INFO ] Training predictor | Epoch: 4 | loss: 39.6187921606976
+2025-08-12 12:38:37 [INFO ] => finished training
