@@ -14,4 +14,4 @@ python main.py --method lfr --dataset har -a cnn\
         --fix_pred_lr \
         --train-predictor-individually --pred_epochs 5 --pred_layers 1\
         --dim $dim --pred_dim $pred_dim --loss barlow-batch\
-        --num-of-runs 1
+        --num-of-runs 1 --save_freq 5
